@@ -5,60 +5,57 @@
 #AutoIt3Wrapper_UseX64=n
 #AutoIt3Wrapper_Res_Description=Kingpin Skin Changer v1.0.5
 #AutoIt3Wrapper_Res_Fileversion=1.0.5.0
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\0.bmp,rt_bitmap,spr_0
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\1.bmp,rt_bitmap,spr_1
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\2.bmp,rt_bitmap,spr_2
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\3.bmp,rt_bitmap,spr_3
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\4.bmp,rt_bitmap,spr_4
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\5.bmp,rt_bitmap,spr_5
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\6.bmp,rt_bitmap,spr_6
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\7.bmp,rt_bitmap,spr_7
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\8.bmp,rt_bitmap,spr_8
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\9.bmp,rt_bitmap,spr_9
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\10.bmp,rt_bitmap,spr_10
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\11.bmp,rt_bitmap,spr_11
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\12.bmp,rt_bitmap,spr_12
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\13.bmp,rt_bitmap,spr_13
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\14.bmp,rt_bitmap,spr_14
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\15.bmp,rt_bitmap,spr_15
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\16.bmp,rt_bitmap,spr_16
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\17.bmp,rt_bitmap,spr_17
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\18.bmp,rt_bitmap,spr_18
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\19.bmp,rt_bitmap,spr_19
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\20.bmp,rt_bitmap,spr_20
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\21.bmp,rt_bitmap,spr_21
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\22.bmp,rt_bitmap,spr_22
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\23.bmp,rt_bitmap,spr_23
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\24.bmp,rt_bitmap,spr_24
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\25.bmp,rt_bitmap,spr_25
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\26.bmp,rt_bitmap,spr_26
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\27.bmp,rt_bitmap,spr_27
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\28.bmp,rt_bitmap,spr_28
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\29.bmp,rt_bitmap,spr_29
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\30.bmp,rt_bitmap,spr_30
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\31.bmp,rt_bitmap,spr_31
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\32.bmp,rt_bitmap,spr_32
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\33.bmp,rt_bitmap,spr_33
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\34.bmp,rt_bitmap,spr_34
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\35.bmp,rt_bitmap,spr_35
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\36.bmp,rt_bitmap,spr_36
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\37.bmp,rt_bitmap,spr_37
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\38.bmp,rt_bitmap,spr_38
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\39.bmp,rt_bitmap,spr_39
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\40.bmp,rt_bitmap,spr_40
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\41.bmp,rt_bitmap,spr_41
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\42.bmp,rt_bitmap,spr_42
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\43.bmp,rt_bitmap,spr_43
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\44.bmp,rt_bitmap,spr_44
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\45.bmp,rt_bitmap,spr_45
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\46.bmp,rt_bitmap,spr_46
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\47.bmp,rt_bitmap,spr_47
-#AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\48.bmp,rt_bitmap,spr_48
+#AutoIt3Wrapper_Res_File_Add=_sprites\0.bmp,rt_bitmap,spr_0
+#AutoIt3Wrapper_Res_File_Add=_sprites\1.bmp,rt_bitmap,spr_1
+#AutoIt3Wrapper_Res_File_Add=_sprites\2.bmp,rt_bitmap,spr_2
+#AutoIt3Wrapper_Res_File_Add=_sprites\3.bmp,rt_bitmap,spr_3
+#AutoIt3Wrapper_Res_File_Add=_sprites\4.bmp,rt_bitmap,spr_4
+#AutoIt3Wrapper_Res_File_Add=_sprites\5.bmp,rt_bitmap,spr_5
+#AutoIt3Wrapper_Res_File_Add=_sprites\6.bmp,rt_bitmap,spr_6
+#AutoIt3Wrapper_Res_File_Add=_sprites\7.bmp,rt_bitmap,spr_7
+#AutoIt3Wrapper_Res_File_Add=_sprites\8.bmp,rt_bitmap,spr_8
+#AutoIt3Wrapper_Res_File_Add=_sprites\9.bmp,rt_bitmap,spr_9
+#AutoIt3Wrapper_Res_File_Add=_sprites\10.bmp,rt_bitmap,spr_10
+#AutoIt3Wrapper_Res_File_Add=_sprites\11.bmp,rt_bitmap,spr_11
+#AutoIt3Wrapper_Res_File_Add=_sprites\12.bmp,rt_bitmap,spr_12
+#AutoIt3Wrapper_Res_File_Add=_sprites\13.bmp,rt_bitmap,spr_13
+#AutoIt3Wrapper_Res_File_Add=_sprites\14.bmp,rt_bitmap,spr_14
+#AutoIt3Wrapper_Res_File_Add=_sprites\15.bmp,rt_bitmap,spr_15
+#AutoIt3Wrapper_Res_File_Add=_sprites\16.bmp,rt_bitmap,spr_16
+#AutoIt3Wrapper_Res_File_Add=_sprites\17.bmp,rt_bitmap,spr_17
+#AutoIt3Wrapper_Res_File_Add=_sprites\18.bmp,rt_bitmap,spr_18
+#AutoIt3Wrapper_Res_File_Add=_sprites\19.bmp,rt_bitmap,spr_19
+#AutoIt3Wrapper_Res_File_Add=_sprites\20.bmp,rt_bitmap,spr_20
+#AutoIt3Wrapper_Res_File_Add=_sprites\21.bmp,rt_bitmap,spr_21
+#AutoIt3Wrapper_Res_File_Add=_sprites\22.bmp,rt_bitmap,spr_22
+#AutoIt3Wrapper_Res_File_Add=_sprites\23.bmp,rt_bitmap,spr_23
+#AutoIt3Wrapper_Res_File_Add=_sprites\24.bmp,rt_bitmap,spr_24
+#AutoIt3Wrapper_Res_File_Add=_sprites\25.bmp,rt_bitmap,spr_25
+#AutoIt3Wrapper_Res_File_Add=_sprites\26.bmp,rt_bitmap,spr_26
+#AutoIt3Wrapper_Res_File_Add=_sprites\27.bmp,rt_bitmap,spr_27
+#AutoIt3Wrapper_Res_File_Add=_sprites\28.bmp,rt_bitmap,spr_28
+#AutoIt3Wrapper_Res_File_Add=_sprites\29.bmp,rt_bitmap,spr_29
+#AutoIt3Wrapper_Res_File_Add=_sprites\30.bmp,rt_bitmap,spr_30
+#AutoIt3Wrapper_Res_File_Add=_sprites\31.bmp,rt_bitmap,spr_31
+#AutoIt3Wrapper_Res_File_Add=_sprites\32.bmp,rt_bitmap,spr_32
+#AutoIt3Wrapper_Res_File_Add=_sprites\33.bmp,rt_bitmap,spr_33
+#AutoIt3Wrapper_Res_File_Add=_sprites\34.bmp,rt_bitmap,spr_34
+#AutoIt3Wrapper_Res_File_Add=_sprites\35.bmp,rt_bitmap,spr_35
+#AutoIt3Wrapper_Res_File_Add=_sprites\36.bmp,rt_bitmap,spr_36
+#AutoIt3Wrapper_Res_File_Add=_sprites\37.bmp,rt_bitmap,spr_37
+#AutoIt3Wrapper_Res_File_Add=_sprites\38.bmp,rt_bitmap,spr_38
+#AutoIt3Wrapper_Res_File_Add=_sprites\39.bmp,rt_bitmap,spr_39
+#AutoIt3Wrapper_Res_File_Add=_sprites\40.bmp,rt_bitmap,spr_40
+#AutoIt3Wrapper_Res_File_Add=_sprites\41.bmp,rt_bitmap,spr_41
+#AutoIt3Wrapper_Res_File_Add=_sprites\42.bmp,rt_bitmap,spr_42
+#AutoIt3Wrapper_Res_File_Add=_sprites\43.bmp,rt_bitmap,spr_43
+#AutoIt3Wrapper_Res_File_Add=_sprites\44.bmp,rt_bitmap,spr_44
+#AutoIt3Wrapper_Res_File_Add=_sprites\45.bmp,rt_bitmap,spr_45
+#AutoIt3Wrapper_Res_File_Add=_sprites\46.bmp,rt_bitmap,spr_46
+#AutoIt3Wrapper_Res_File_Add=_sprites\47.bmp,rt_bitmap,spr_47
+#AutoIt3Wrapper_Res_File_Add=_sprites\48.bmp,rt_bitmap,spr_48
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-;~ #AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\up.bmp,rt_bitmap,btn_up
-;~ #AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\dn.bmp,rt_bitmap,btn_dn
-;~ #AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\up_.bmp,rt_bitmap,btn_up_
-;~ #AutoIt3Wrapper_Res_File_Add=S:\dev_code\models-\kp_skinChanger\_sprites\dn_.bmp,rt_bitmap,btn_dn_
+
 
 ; kingpin skin changer v1.0
 ;
@@ -107,445 +104,355 @@ Opt("GUIOnEventMode", 1)
 Opt("GUICloseOnESC", 0)
 
 
-#Region ### START Koda GUI section ### Form=c:\programs\codeing\autoit-v3\scite\koda\dave\kp\model_fix.kxf
-Global $KPModelSkins = GUICreate("Kingpin Model Skin Changer v1.0.5", 494, 510, -1, -1, -1, BitOR($WS_EX_ACCEPTFILES,$WS_EX_WINDOWEDGE))
-GUISetOnEvent($GUI_EVENT_CLOSE, "KPModelSkinsClose")
-Global $Group3 = GUICtrlCreateGroup("#2. Output Model Path", 4, 64, 381, 57)
-Global $in_model_export = GUICtrlCreateInput("", 96, 88, 277, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY))
-Global $btn_export_file = GUICtrlCreateButton("Save name..", 12, 84, 77, 29)
-GUICtrlSetTip(-1, "Set output filename different to import.")
-GUICtrlSetOnEvent(-1, "btn_export_fileClick")
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $Group1 = GUICtrlCreateGroup("#1. Open Model", 4, 4, 381, 57)
-Global $btn_import = GUICtrlCreateButton("Import..", 12, 24, 77, 29)
-GUICtrlSetTip(-1, "Output File Name will also be updated")
-GUICtrlSetOnEvent(-1, "btn_importClick")
-Global $in_model_import = GUICtrlCreateInput("", 96, 28, 277, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY))
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $Group6 = GUICtrlCreateGroup("#3. Skins/Sprite/Scale", 4, 124, 485, 381, -1, $WS_EX_TRANSPARENT)
-Global $tabs = GUICtrlCreateTab(8, 144, 477, 357, $TCS_BUTTONS)
-Global $skin16 = GUICtrlCreateTabItem("Skins 1-16")
-Global $btn_skin_1 = GUICtrlCreateButton("Skin 1", 12, 176, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_1Click")
-Global $btn_skin_2 = GUICtrlCreateButton("Skin 2", 12, 196, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_2Click")
-Global $btn_skin_3 = GUICtrlCreateButton("Skin 3", 12, 216, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_3Click")
-Global $btn_skin_4 = GUICtrlCreateButton("Skin 4", 12, 236, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_4Click")
-Global $btn_skin_5 = GUICtrlCreateButton("Skin 5", 12, 256, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_5Click")
-Global $btn_skin_6 = GUICtrlCreateButton("Skin 6", 12, 276, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_6Click")
-Global $btn_skin_7 = GUICtrlCreateButton("Skin 7", 12, 296, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_7Click")
-Global $btn_skin_8 = GUICtrlCreateButton("Skin 8", 12, 316, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_8Click")
-Global $btn_skin_9 = GUICtrlCreateButton("Skin 9", 12, 336, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_9Click")
-Global $btn_skin_10 = GUICtrlCreateButton("Skin 10", 12, 356, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_10Click")
-Global $btn_skin_11 = GUICtrlCreateButton("Skin 11", 12, 376, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_11Click")
-Global $btn_skin_12 = GUICtrlCreateButton("Skin 12", 12, 396, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_12Click")
-Global $btn_skin_13 = GUICtrlCreateButton("Skin 13", 12, 416, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_13Click")
-Global $btn_skin_14 = GUICtrlCreateButton("Skin 14", 12, 436, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_14Click")
-Global $btn_skin_15 = GUICtrlCreateButton("Skin 15", 12, 456, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_15Click")
-Global $btn_skin_16 = GUICtrlCreateButton("Skin 16", 12, 476, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_16Click")
-Global $in_skin_1 = GUICtrlCreateInput("", 80, 176, 400, 21)
-Global $in_skin_2 = GUICtrlCreateInput("", 80, 196, 400, 21)
-Global $in_skin_3 = GUICtrlCreateInput("", 80, 216, 400, 21)
-Global $in_skin_4 = GUICtrlCreateInput("", 80, 236, 400, 21)
-Global $in_skin_5 = GUICtrlCreateInput("", 80, 256, 400, 21)
-Global $in_skin_6 = GUICtrlCreateInput("", 80, 276, 400, 21)
-Global $in_skin_7 = GUICtrlCreateInput("", 80, 296, 400, 21)
-Global $in_skin_8 = GUICtrlCreateInput("", 80, 316, 400, 21)
-Global $in_skin_9 = GUICtrlCreateInput("", 80, 336, 400, 21)
-Global $in_skin_10 = GUICtrlCreateInput("", 80, 356, 400, 21)
-Global $in_skin_11 = GUICtrlCreateInput("", 80, 376, 400, 21)
-Global $in_skin_12 = GUICtrlCreateInput("", 80, 396, 400, 21)
-Global $in_skin_13 = GUICtrlCreateInput("", 80, 416, 400, 21)
-Global $in_skin_14 = GUICtrlCreateInput("", 80, 436, 400, 21)
-Global $in_skin_15 = GUICtrlCreateInput("", 80, 456, 400, 21)
-Global $in_skin_16 = GUICtrlCreateInput("", 80, 476, 400, 21)
-Global $skin32 = GUICtrlCreateTabItem("Skins 17-32")
-Global $btn_skin_17 = GUICtrlCreateButton("Skin 17", 12, 176, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_17Click")
-Global $btn_skin_18 = GUICtrlCreateButton("Skin 18", 12, 196, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_18Click")
-Global $btn_skin_19 = GUICtrlCreateButton("Skin 19", 12, 216, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_19Click")
-Global $btn_skin_20 = GUICtrlCreateButton("Skin 20", 12, 236, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_20Click")
-Global $btn_skin_21 = GUICtrlCreateButton("Skin 21", 12, 256, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_21Click")
-Global $btn_skin_22 = GUICtrlCreateButton("Skin 22", 12, 276, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_22Click")
-Global $btn_skin_23 = GUICtrlCreateButton("Skin 23", 12, 296, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_23Click")
-Global $btn_skin_24 = GUICtrlCreateButton("Skin 24", 12, 316, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_24Click")
-Global $btn_skin_25 = GUICtrlCreateButton("Skin 25", 12, 336, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_25Click")
-Global $btn_skin_26 = GUICtrlCreateButton("Skin 26", 12, 356, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_26Click")
-Global $btn_skin_27 = GUICtrlCreateButton("Skin 27", 12, 376, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_27Click")
-Global $btn_skin_28 = GUICtrlCreateButton("Skin 28", 12, 396, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_28Click")
-Global $btn_skin_29 = GUICtrlCreateButton("Skin 29", 12, 416, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_29Click")
-Global $btn_skin_30 = GUICtrlCreateButton("Skin 30", 12, 436, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_30Click")
-Global $btn_skin_31 = GUICtrlCreateButton("Skin 31", 12, 456, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_31Click")
-Global $btn_skin_32 = GUICtrlCreateButton("Skin 32", 12, 476, 61, 20)
-GUICtrlSetOnEvent(-1, "btn_skin_32Click")
-Global $in_skin_17 = GUICtrlCreateInput("", 80, 176, 400, 21)
-Global $in_skin_18 = GUICtrlCreateInput("", 80, 196, 400, 21)
-Global $in_skin_19 = GUICtrlCreateInput("", 80, 216, 400, 21)
-Global $in_skin_20 = GUICtrlCreateInput("", 80, 236, 400, 21)
-Global $in_skin_21 = GUICtrlCreateInput("", 80, 256, 400, 21)
-Global $in_skin_22 = GUICtrlCreateInput("", 80, 276, 400, 21)
-Global $in_skin_23 = GUICtrlCreateInput("", 80, 296, 400, 21)
-Global $in_skin_24 = GUICtrlCreateInput("", 80, 316, 400, 21)
-Global $in_skin_25 = GUICtrlCreateInput("", 80, 336, 400, 21)
-Global $in_skin_26 = GUICtrlCreateInput("", 80, 356, 400, 21)
-Global $in_skin_27 = GUICtrlCreateInput("", 80, 376, 400, 21)
-Global $in_skin_28 = GUICtrlCreateInput("", 80, 396, 400, 21)
-Global $in_skin_29 = GUICtrlCreateInput("", 80, 416, 400, 21)
-Global $in_skin_30 = GUICtrlCreateInput("", 80, 436, 400, 21)
-Global $in_skin_31 = GUICtrlCreateInput("", 80, 456, 400, 21)
-Global $in_skin_32 = GUICtrlCreateInput("", 80, 476, 400, 21)
-Global $tabSprite = GUICtrlCreateTabItem("Sprite")
-Global $Group5 = GUICtrlCreateGroup("Sprite Settings", 14, 172, 465, 323)
-Global $Input1_flags = GUICtrlCreateInput("0", 90, 224, 61, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY,$ES_NUMBER))
-GUICtrlSetTip(-1, "Flags.")
-Global $Input10_rand_scale = GUICtrlCreateInput("0", 90, 464, 62, 21)
-Global $Updown10_randScale = GUICtrlCreateUpdown($Input10_rand_scale)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Random time scale (fadein and lifetime will be multiplied by (x * 0.5), where x is a random number between -1 and 1. (type=float)")
-Global $Input9_lifetime = GUICtrlCreateInput("0", 90, 440, 62, 21)
-Global $Updown9_lifetime = GUICtrlCreateUpdown($Input9_lifetime)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "How long will the sprite will be shown before it is gone. (type=float)")
-Global $Input8_fade_in = GUICtrlCreateInput("0", 90, 416, 62, 21)
-Global $Updown8_fadein = GUICtrlCreateUpdown($Input8_fade_in)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Fade in time. (type=float)")
-Global $Input7_end_alpha = GUICtrlCreateInput("0", 90, 392, 62, 21)
-Global $Updown7_endAlpha = GUICtrlCreateUpdown($Input7_end_alpha)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "The end of a sprite with how much alpha the sprite has. (type=float)")
-Global $Input6_start_alpha = GUICtrlCreateInput("0", 90, 368, 62, 21)
-Global $Updown6_startAlpha = GUICtrlCreateUpdown($Input6_start_alpha)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "The start of a sprite with how much alpha the sprite has.(Float)")
-Global $Input5_randTime = GUICtrlCreateInput("0", 90, 344, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown5_randTime = GUICtrlCreateUpdown($Input5_randTime)
-GUICtrlSetLimit(-1, 100, 1)
-GUICtrlSetTip(-1, "Random spawn interval (sprite will be spawned 50% of the time) (type=float)")
-Global $Input4_time = GUICtrlCreateInput("0", 90, 320, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown4_time = GUICtrlCreateUpdown($Input4_time)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Spawn interval. 2=0.2 seconds (type=integer)")
-Global $Input3_gravity = GUICtrlCreateInput("0", 90, 296, 62, 21)
-Global $Updown3_gravity = GUICtrlCreateUpdown($Input3_gravity)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Use gravity for sprite. (type=integer)")
-Global $Input2_speed = GUICtrlCreateInput("0", 90, 272, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown2_speed = GUICtrlCreateUpdown($Input2_speed)
-GUICtrlSetLimit(-1, 2048, 1)
-GUICtrlSetTip(-1, "Velocity/Speed (type=integer)")
-Global $Combo2_direction = GUICtrlCreateCombo("", 90, 248, 63, 25, BitOR($CBS_DROPDOWNLIST,$CBS_AUTOHSCROLL))
-GUICtrlSetData(-1, "0: UP|1: Use Face/Vert Direction", "0: UP")
-GUICtrlSetTip(-1, "Direction sprite will face")
-Global $Label6 = GUICtrlCreateLabel("Gravity/Delay", 18, 298, 67, 17, $SS_RIGHT)
-Global $Label5 = GUICtrlCreateLabel("Speed", 26, 274, 59, 17, $SS_RIGHT)
-GUICtrlSetTip(-1, "Use gravity for sprite")
-Global $Label4 = GUICtrlCreateLabel("Direction", 26, 250, 59, 17, $SS_RIGHT)
-Global $Combo1_SFX_Type = GUICtrlCreateCombo("", 90, 200, 63, 25, BitOR($GUI_SS_DEFAULT_COMBO,$CBS_SIMPLE))
-GUICtrlSetData(-1, "0: Blood (Called SFX_SPRITE_SURF_BLOOD1 in code)|1: Bullet Hole (Called SFX_SPRITE_SURF_BULLET1 in code)|2: Riple (Called SFX_SPRITE_SURF_RIPPLE in code)|5: Blood Pool (Called SFX_SPRITE_SURF_BLOOD_POOL in code)|6: Blood Splat|7: Blood Drop|8: Smoke Small|9: Fire|10: Carona|16: Same as 9:|17: Carona Amber|18: Carona Red|19: Carona Green|20: Carona Blue|21: Rain|22: Smoke Small R (Red? but is not red. unfisched texture)|23: Sniper 1c (Missing texture)|24: Sniper 2 (Missing texture)|25: Same as 2.|71: Blood 1|72: Blood 1b|73: Blood 1c|74: Blood 1d|75: Blood 1e|76: Blood 1f|77: Blood 1g|78: Blood 1h|79: Blood 1i|80: Muzzle flash 3|100: Muzzle flash HMG (Used for HMG)|101: Muzzle flash 1 (Used for Pistol)|102: Muzzle flash 2 (Used for Tommygun)|103: Same as 80 (Used for Shotgun)|104: Muzzle flash 4 (Used for Flamethrower)|106: Muzzle flash 1a|107: Muzzle flash 2a|108: Muzzle flash 2b|110: Explode 1|111: Explode 2|116: Smoke Animated|120: Flame Thrower|121: Return error texture.|122: Flame Thrower Blue|123: Same as 121.|124: Splash 1|125: Splash 2|126: Splash 3|127: Splash 4|128: Firewall")
-GUICtrlSetTip(-1, "Sprite image to use")
-GUICtrlSetOnEvent(-1, "Combo1_SFX_TypeChange")
-Global $Label2 = GUICtrlCreateLabel("SFX Type", 26, 202, 59, 17, $SS_RIGHT)
-Global $Label7 = GUICtrlCreateLabel("Time 0.1s *", 26, 321, 59, 17, $SS_RIGHT)
-Global $Label8 = GUICtrlCreateLabel("Spawn %", 18, 346, 67, 17, $SS_RIGHT)
-GUICtrlSetTip(-1, "Random spawn percent.")
-Global $Label9 = GUICtrlCreateLabel("Start Alpha", 26, 370, 59, 17, $SS_RIGHT)
-Global $Label10 = GUICtrlCreateLabel("End Alpha", 26, 394, 59, 17, $SS_RIGHT)
-Global $Label11 = GUICtrlCreateLabel("Fade In", 26, 418, 59, 17, $SS_RIGHT)
-GUICtrlSetTip(-1, "0.0 >")
-Global $Label12 = GUICtrlCreateLabel("Lifetime", 26, 442, 59, 17, $SS_RIGHT)
-GUICtrlSetTip(-1, "Time sprite will exist for. 0.1>")
-Global $Label13 = GUICtrlCreateLabel("Rand Scale", 26, 466, 59, 17, $SS_RIGHT)
-Global $Input11_start_width = GUICtrlCreateInput("0", 250, 200, 62, 21)
-Global $Updown11_startWidth = GUICtrlCreateUpdown($Input11_start_width)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Start size of sprite in width. (type=float)")
-Global $Label14 = GUICtrlCreateLabel("Start Width", 192, 202, 53, 17, $SS_RIGHT)
-Global $Input12_end_width = GUICtrlCreateInput("0", 250, 224, 62, 21)
-Global $Updown12_endWidth = GUICtrlCreateUpdown($Input12_end_width)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "End size of sprite in width. (type=float)")
-Global $Input13_start_height = GUICtrlCreateInput("0", 250, 248, 62, 21)
-Global $Updown13_startHeight = GUICtrlCreateUpdown($Input13_start_height)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Start size of sprite in height. (type=float)")
-Global $Input14_end_height = GUICtrlCreateInput("0", 250, 272, 62, 21)
-Global $Updown14_end_height = GUICtrlCreateUpdown($Input14_end_height)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "End size of sprite in height. (type=float)")
-Global $Input15_rand_w_h = GUICtrlCreateInput("0", 250, 296, 62, 21)
-Global $Updown15_randWH = GUICtrlCreateUpdown($Input15_rand_w_h)
-GUICtrlSetLimit(-1, 2048, 0)
-GUICtrlSetTip(-1, "Random size scale (same as random time scale, but effects only sizes) (type=float)")
-Global $Label15 = GUICtrlCreateLabel("End Width", 192, 226, 53, 17, $SS_RIGHT)
-Global $Label16 = GUICtrlCreateLabel("Start Height", 182, 250, 63, 17, $SS_RIGHT)
-Global $Label17 = GUICtrlCreateLabel("End Height", 182, 274, 63, 17, $SS_RIGHT)
-Global $Label18 = GUICtrlCreateLabel("Rand W/H", 182, 298, 63, 17, $SS_RIGHT)
-Global $Button_Sprite_Reset = GUICtrlCreateButton("Reset", 162, 460, 77, 25)
-GUICtrlSetTip(-1, "Return all input boxes to default pistol sfx")
-GUICtrlSetOnEvent(-1, "Button_Sprite_ResetClick")
-Global $Button_Sprite_Import = GUICtrlCreateButton("Import .qdt", 162, 404, 77, 25)
-GUICtrlSetOnEvent(-1, "Button_Sprite_ImportClick")
-Global $Button_Sprite_Export = GUICtrlCreateButton("Export .qdt", 162, 432, 77, 25)
-GUICtrlSetOnEvent(-1, "Button_Sprite_ExportClick")
-Global $Label19 = GUICtrlCreateLabel("Vert/Tri Index #", 166, 326, 79, 17, $SS_RIGHT)
-Global $Input16_vertexID = GUICtrlCreateInput("0", 250, 324, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown16_vertIndex = GUICtrlCreateUpdown($Input16_vertexID)
-GUICtrlSetLimit(-1, 2047, 0)
-GUICtrlSetTip(-1, "What vertex/face index do you want the sprite to be attached to. (type=integer)")
-Global $Group4 = GUICtrlCreateGroup("Show on frame/s (0-Based)", 322, 196, 149, 291)
-Global $Input_f_end_2 = GUICtrlCreateInput("0", 402, 262, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_2 = GUICtrlCreateUpdown($Input_f_end_2)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_1 = GUICtrlCreateInput("0", 330, 238, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_1 = GUICtrlCreateUpdown($Input_f_start_1)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_1 = GUICtrlCreateInput("0", 402, 238, 63, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_1 = GUICtrlCreateUpdown($Input_f_end_1)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_2 = GUICtrlCreateInput("0", 330, 262, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_2 = GUICtrlCreateUpdown($Input_f_start_2)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_3 = GUICtrlCreateInput("0", 330, 286, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_3 = GUICtrlCreateUpdown($Input_f_start_3)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_3 = GUICtrlCreateInput("0", 402, 286, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_3 = GUICtrlCreateUpdown($Input_f_end_3)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_4 = GUICtrlCreateInput("0", 330, 310, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_4 = GUICtrlCreateUpdown($Input_f_start_4)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_4 = GUICtrlCreateInput("0", 402, 310, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_4 = GUICtrlCreateUpdown($Input_f_end_4)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_5 = GUICtrlCreateInput("0", 330, 334, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_5 = GUICtrlCreateUpdown($Input_f_start_5)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_5 = GUICtrlCreateInput("0", 402, 334, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_5 = GUICtrlCreateUpdown($Input_f_end_5)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Label21 = GUICtrlCreateLabel("Start", 332, 218, 43, 17)
-Global $Label22 = GUICtrlCreateLabel("End", 404, 218, 35, 17)
-Global $Input_f_start_6 = GUICtrlCreateInput("0", 330, 358, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_6 = GUICtrlCreateUpdown($Input_f_start_6)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_7 = GUICtrlCreateInput("0", 330, 382, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_7 = GUICtrlCreateUpdown($Input_f_start_7)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_8 = GUICtrlCreateInput("0", 330, 406, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_8 = GUICtrlCreateUpdown($Input_f_start_8)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_9 = GUICtrlCreateInput("0", 330, 430, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_9 = GUICtrlCreateUpdown($Input_f_start_9)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_start_10 = GUICtrlCreateInput("0", 330, 454, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_start_10 = GUICtrlCreateUpdown($Input_f_start_10)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_6 = GUICtrlCreateInput("0", 402, 358, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_6 = GUICtrlCreateUpdown($Input_f_end_6)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_7 = GUICtrlCreateInput("0", 402, 382, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_7 = GUICtrlCreateUpdown($Input_f_end_7)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_8 = GUICtrlCreateInput("0", 402, 406, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_8 = GUICtrlCreateUpdown($Input_f_end_8)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_9 = GUICtrlCreateInput("0", 402, 430, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_9 = GUICtrlCreateUpdown($Input_f_end_9)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-Global $Input_f_end_10 = GUICtrlCreateInput("0", 402, 454, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-Global $Updown_f_end_10 = GUICtrlCreateUpdown($Input_f_end_10)
-GUICtrlSetLimit(-1, 511, -1)
-GUICtrlSetTip(-1, "Integer")
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $Checkbox2 = GUICtrlCreateCheckbox("Add / Update SFX", 246, 404, 69, 81, BitOR($BS_CHECKBOX,$BS_CENTER,$BS_PUSHLIKE,$BS_MULTILINE))
-GUICtrlSetFont(-1, 8, 800, 0, "MS Sans Serif")
-GUICtrlSetTip(-1, "Add an SFX entry into the .mdx."&@crlf&"Once SFX is inside an mdx it wont be removed."&@crlf&"To disable set all start/end to -1.")
-GUICtrlSetOnEvent(-1, "Checkbox2Click")
-Global $Button_flags = GUICtrlCreateButton("Flags", 44, 222, 41, 25)
-GUICtrlSetOnEvent(-1, "Button_flagsClick")
-Global $Combo3_vertTri = GUICtrlCreateCombo("", 250, 372, 63, 25, BitOR($CBS_DROPDOWNLIST,$CBS_AUTOHSCROLL))
-GUICtrlSetData(-1, "0: Spawn at Vertex|1: Spawn centre of Triangle", "0: Spawn at Vertex")
-GUICtrlSetTip(-1, "Select vertex or triangle to spawn sprite at")
-Global $Input2_defineIndex = GUICtrlCreateInput("0", 250, 348, 61, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY,$ES_NUMBER))
-GUICtrlSetState(-1, $GUI_DISABLE)
-GUICtrlSetTip(-1, "Always use the first defined index.")
-Global $Label20 = GUICtrlCreateLabel("Define Index", 182, 350, 63, 17, $SS_RIGHT)
-Global $Label23 = GUICtrlCreateLabel("Vert/Tri ?", 182, 374, 63, 17, $SS_RIGHT)
-Global $Icon_spr = GUICtrlCreateLabel("", 156, 200, 32, 32, $SS_SUNKEN)
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $TabScale = GUICtrlCreateTabItem("Scale")
-Global $Group7 = GUICtrlCreateGroup("Model Scale/Position", 14, 172, 465, 323)
-Global $CheckboxScale = GUICtrlCreateCheckbox("Enable Rescale", 28, 196, 113, 17)
-GUICtrlSetOnEvent(-1, "CheckboxScaleClick")
-Global $Label3 = GUICtrlCreateLabel("BBox Max XYZ", 22, 224, 81, 17, $SS_RIGHT)
-Global $InputScale_1 = GUICtrlCreateInput("0.0", 110, 220, 117, 21)
-GUICtrlSetTip(-1, "X")
-Global $InputScale_2 = GUICtrlCreateInput("0.0", 230, 220, 117, 21)
-GUICtrlSetTip(-1, "Y")
-Global $InputScale_3 = GUICtrlCreateInput("0.0", 350, 220, 117, 21)
-GUICtrlSetTip(-1, "Z")
-Global $Label24 = GUICtrlCreateLabel("BBox Min XYZ", 22, 252, 81, 17, $SS_RIGHT)
-Global $InputScale_4 = GUICtrlCreateInput("0.0", 110, 248, 117, 21)
-GUICtrlSetTip(-1, "X")
-Global $InputScale_5 = GUICtrlCreateInput("0.0", 230, 248, 117, 21)
-GUICtrlSetTip(-1, "Y")
-Global $InputScale_6 = GUICtrlCreateInput("0.0", 350, 248, 117, 21)
-GUICtrlSetTip(-1, "Z")
-Global $Edit1 = GUICtrlCreateEdit("", 26, 284, 441, 201, BitOR($ES_AUTOVSCROLL,$ES_AUTOHSCROLL,$ES_READONLY,$ES_WANTRETURN))
-GUICtrlSetData(-1, StringFormat("Scale/reposition models using its bounding-box(BBox) size/position.\r\nThis is non destructive so vertex precision wont be lost.\r\n\r\nOnly effective on the first frame. So its not recommended for animated models.\r\n\r\nBBox Max is the most maximum XYZ position of any vertex.\r\nBBox Min is the most minimum XYZ position of any vertex.\r\n\r\nA pickup item BBox is usually min(-15, -15, -15) max(+15, +15, +15)\r\nIf you want to scale it taller while keeping item on the floor you set max-Z higher.\r\nEg.. min(-15, -15, -15) max(+15, +15, +30)"))
-Global $btn_scale_drop = GUICtrlCreateButton("Drop To Floor", 350, 188, 117, 25)
-GUICtrlSetTip(-1, "Drop Z height to -15")
-GUICtrlSetOnEvent(-1, "btn_scale_dropClick")
-Global $btn_scale_centre = GUICtrlCreateButton("Centre Model", 230, 188, 113, 25)
-GUICtrlSetTip(-1, "Place model at centre origin")
-GUICtrlSetOnEvent(-1, "btn_scale_centreClick")
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $TabAbout = GUICtrlCreateTabItem("About")
-Global $Edit2 = GUICtrlCreateEdit("", 12, 176, 468, 321, BitOR($ES_READONLY,$ES_WANTRETURN,$WS_VSCROLL))
-GUICtrlSetData(-1, StringFormat("Created By David Smyth (Hypov8)\r\n===========================\r\n\r\nUsed for changing skins/sprites in md2/mdx files without needing a modelling program.\r\nMDX and MD2 are lossy file formats. Storing vertex position as a single Byte(256 grid units)\r\nSo every time you open and save, you may loose vertex precision.\r\nThis program stops the data loss by just updating skin/sprite values.\r\n\r\nOutput file name is always set when a new model is loaded.\r\nFile will be overwritten by default unless you change the Save File Name.\r\nDo take caution updating the original file. Always have a backup.\r\n\r\nSkin path"&Chr(39)&"s can be manually edited/deleted if needed.\r\n\r\nSkin names are truncated if models/, players/, textures/, kingpin/, Quake2/ is found.\r\n\r\nAdded Texture size option.\r\nKingpin max size is 480 but value seems irrelevant to render quality.\r\nQuake2 UV now resize for software mode.\r\nFile drag and drop supported for all input boxes.\r\nFile [ Open with ] supported.\r\n\r\nUSAGE: \r\n=======\r\n#1. Click [ Import ]. Select your md2/mdx file\r\n#2. Click [ File Name ]. If you want to save as a new file\r\n#3. Change skins/sprites as desired. Skin names can be typed.\r\n#4. Click [ GO! ]. This will make a new/updated model with your skins.\r\n\r\nDISCLAIMER: \r\n===========\r\nCare taken writing program but I do not take any responsibility for loss or damages."))
-GUICtrlCreateTabItem("")
-Global $btn_clear = GUICtrlCreateButton("Clear Skins", 416, 144, 65, 21)
-GUICtrlSetTip(-1, "Clear all skins.")
-GUICtrlSetOnEvent(-1, "btn_clearClick")
-Global $in_size_w = GUICtrlCreateInput("", 336, 144, 37, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-GUICtrlSetLimit(-1, 3)
-GUICtrlSetTip(-1, "Texture Width")
-Global $in_size_h = GUICtrlCreateInput("", 376, 144, 37, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
-GUICtrlSetLimit(-1, 3)
-GUICtrlSetTip(-1, "Texture Height")
-Global $Label1 = GUICtrlCreateLabel("W/H", 304, 146, 28, 17, $SS_RIGHT)
-GUICtrlSetTip(-1, "Skin Width/Height")
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $Group2 = GUICtrlCreateGroup("#4. Save", 392, 4, 97, 117)
-Global $btn_export_GO = GUICtrlCreateButton("GO!", 401, 56, 77, 57)
-GUICtrlSetTip(-1, "Generate model"&@CRLF&"CAUTION: make sure you have a backup.")
-GUICtrlSetOnEvent(-1, "btn_export_GOClick")
-Global $Checkbox1 = GUICtrlCreateCheckbox("Backup", 404, 28, 69, 17)
-GUICtrlSetState(-1, $GUI_CHECKED)
-GUICtrlSetTip(-1, "Create a backup file (file_name.mdx.backup)"&@CRLF&"File will NOT be backed up if a backup already exists")
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-GUISetState(@SW_SHOW)
-#EndRegion ### END Koda GUI section ###
+Global Const $iMAXSKIN = 32
+Global $KPModelSkins, $Group1, $Group3, $tabs, $tab0, $tab1, $tab2, $tab3, $tab4, _
+	$in_model_import, $btn_import, $in_model_export, $btn_export_file, $btn_scale_centre, _
+	$btn_scale_drop, $InputScale_6, $InputScale_5, $InputScale_4, $InputScale_3, $InputScale_2, _
+	$InputScale_1, $CheckboxScale, $Checkbox1, $btn_export_GO , $in_size_h, $in_size_w, _
+	$btn_clear, $Input1_flags, $Input10_rand_scale, $Updown10_randScale, $Input9_lifetime, $Input8_fade_in, _
+	$Updown9_lifetime, $Updown8_fadein, $Input7_end_alpha, $Updown7_endAlpha, $Input6_start_alpha , _
+	$Updown6_startAlpha, $Input5_randTime, $Updown5_randTime, $Input4_time, $Updown4_time, _
+	$Input3_gravity, $Updown3_gravity, $Input2_speed, $Updown2_speed, _
+	$Combo2_direction, $Combo1_SFX_Type, $Input11_start_width, $Updown11_startWidth, $Input12_end_width, _
+	$Updown12_endWidth, $Input13_start_height, $Updown13_startHeight, $Input14_end_height, _
+	$Updown14_end_height, $Input15_rand_w_h , $Updown15_randWH, $Button_Sprite_Reset, _
+	$Button_Sprite_Import, $Button_Sprite_Export, $Input16_vertexID, $Updown16_vertIndex, $Group4, _
+	$Icon_spr, $Combo3_vertTri, $Input2_defineIndex, $Button_flags, $Checkbox2, _
+	$Label2_msgbox, $Label1_msgbox, $Button1_msgbox, $Form1_msgbox, _
+	$Input_f_end[10], $Updown_f_end[10], $Input_f_start[10], $Updown_f_start[10]
+
+Global $UI_btn_skins[$iMAXSKIN], $UI_in_skins[$iMAXSKIN]; $in_skin_1
+
+MainUI()
+Func MainUI()
+	Local $iOff
+	#Region ### START Koda GUI section ### Form=c:\programs\codeing\autoit-v3\scite\koda\dave\kp\model_fix.kxf
+	$KPModelSkins = GUICreate("Kingpin Model Skin Changer v1.0.5", 494, 510, -1, -1, -1, BitOR($WS_EX_ACCEPTFILES,$WS_EX_WINDOWEDGE))
+	GUISetOnEvent($GUI_EVENT_CLOSE, "KPModelSkinsClose")
+
+	;import group
+	$Group1 = GUICtrlCreateGroup("#1. Open Model", 4, 4, 381, 57)
+		$btn_import = GUICtrlCreateButton("Import..", 12, 24, 77, 29)
+		GUICtrlSetTip(-1, "Output File Name will also be updated")
+		GUICtrlSetOnEvent(-1, "btn_importClick")
+		$in_model_import = GUICtrlCreateInput("", 96, 28, 277, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY))
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+	;export group
+	$Group3 = GUICtrlCreateGroup("#2. Output Model Path", 4, 64, 381, 57)
+		$in_model_export = GUICtrlCreateInput("", 96, 88, 277, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY))
+		$btn_export_file = GUICtrlCreateButton("Save name..", 12, 84, 77, 29)
+		GUICtrlSetTip(-1, "Set output filename different to import.")
+		GUICtrlSetOnEvent(-1, "btn_export_fileClick")
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+
+	GUICtrlCreateGroup("#3. Skins/Sprite/Scale", 4, 124, 485, 381, -1, $WS_EX_TRANSPARENT)
+		$tabs = GUICtrlCreateTab(8, 144, 477, 357, $TCS_BUTTONS)
+
+		;tab skins 1-16
+		$tab0 = GUICtrlCreateTabItem("Skins 1-16")
+			$iOff = 176
+			For $i = 0 To 15
+				$UI_btn_skins[$i] = GUICtrlCreateButton("Skin " & $i+1, 12, $iOff, 61, 20)
+				GUICtrlSetOnEvent($UI_btn_skins[$i], "btn_skin_" &$i+1& "Click")
+				$UI_in_skins[$i]= GUICtrlCreateInput("", 80, $iOff, 400, 21)
+				$iOff += 20
+			Next
+
+		;tab 17-32
+		$tab1 = GUICtrlCreateTabItem("Skins 17-32")
+			$iOff = 176
+			For $i = 16 To $iMAXSKIN - 1
+				$UI_btn_skins[$i] = GUICtrlCreateButton("Skin " & $i+1, 12, $iOff, 61, 20)
+				GUICtrlSetOnEvent($UI_btn_skins[$i], "btn_skin_" &$i+1& "Click")
+				$UI_in_skins[$i]= GUICtrlCreateInput("", 80, $iOff, 400, 21)
+				$iOff += 20
+			Next
+
+		;tab sprites
+		$tab2 = GUICtrlCreateTabItem("Sprite")
+			GUICtrlCreateGroup("Sprite Settings", 14, 172, 465, 323)
+				 $Input1_flags = GUICtrlCreateInput("0", 90, 224, 61, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY,$ES_NUMBER))
+				GUICtrlSetTip(-1, "Flags.")
+				$Input10_rand_scale = GUICtrlCreateInput("0", 90, 464, 62, 21)
+				$Updown10_randScale = GUICtrlCreateUpdown($Input10_rand_scale)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Random time scale (fadein and lifetime will be multiplied by (x * 0.5), where x is a random number between -1 and 1. (type=float)")
+				$Input9_lifetime = GUICtrlCreateInput("0", 90, 440, 62, 21)
+				$Updown9_lifetime = GUICtrlCreateUpdown($Input9_lifetime)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "How long will the sprite will be shown before it is gone. (type=float)")
+				$Input8_fade_in = GUICtrlCreateInput("0", 90, 416, 62, 21)
+				$Updown8_fadein = GUICtrlCreateUpdown($Input8_fade_in)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Fade in time. (type=float)")
+				$Input7_end_alpha = GUICtrlCreateInput("0", 90, 392, 62, 21)
+				$Updown7_endAlpha = GUICtrlCreateUpdown($Input7_end_alpha)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "The end of a sprite with how much alpha the sprite has. (type=float)")
+				$Input6_start_alpha = GUICtrlCreateInput("0", 90, 368, 62, 21)
+				$Updown6_startAlpha = GUICtrlCreateUpdown($Input6_start_alpha)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "The start of a sprite with how much alpha the sprite has.(Float)")
+				$Input5_randTime = GUICtrlCreateInput("0", 90, 344, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+				$Updown5_randTime = GUICtrlCreateUpdown($Input5_randTime)
+				GUICtrlSetLimit(-1, 100, 1)
+				GUICtrlSetTip(-1, "Random spawn interval (sprite will be spawned 50% of the time) (type=float)")
+				$Input4_time = GUICtrlCreateInput("0", 90, 320, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+				$Updown4_time = GUICtrlCreateUpdown($Input4_time)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Spawn interval. 2=0.2 seconds (type=integer)")
+				$Input3_gravity = GUICtrlCreateInput("0", 90, 296, 62, 21)
+				$Updown3_gravity = GUICtrlCreateUpdown($Input3_gravity)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Use gravity for sprite. (type=integer)")
+				$Input2_speed = GUICtrlCreateInput("0", 90, 272, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+				$Updown2_speed = GUICtrlCreateUpdown($Input2_speed)
+				GUICtrlSetLimit(-1, 2048, 1)
+				GUICtrlSetTip(-1, "Velocity/Speed (type=integer)")
+				$Combo2_direction = GUICtrlCreateCombo("", 90, 248, 63, 25, BitOR($CBS_DROPDOWNLIST,$CBS_AUTOHSCROLL))
+				GUICtrlSetData(-1, "0: UP|1: Use Face/Vert Direction", "0: UP")
+				GUICtrlSetTip(-1, "Direction sprite will face")
+				GUICtrlCreateLabel("Gravity/Delay", 18, 298, 67, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Speed", 26, 274, 59, 17, $SS_RIGHT)
+				GUICtrlSetTip(-1, "Use gravity for sprite")
+				GUICtrlCreateLabel("Direction", 26, 250, 59, 17, $SS_RIGHT)
+				$Combo1_SFX_Type = GUICtrlCreateCombo("", 90, 200, 63, 25, BitOR($GUI_SS_DEFAULT_COMBO,$CBS_SIMPLE))
+				GUICtrlSetData(-1, "0: Blood (Called SFX_SPRITE_SURF_BLOOD1 in code)|1: Bullet Hole (Called SFX_SPRITE_SURF_BULLET1 in code)|2: Riple (Called SFX_SPRITE_SURF_RIPPLE in code)|5: Blood Pool (Called SFX_SPRITE_SURF_BLOOD_POOL in code)|6: Blood Splat|7: Blood Drop|8: Smoke Small|9: Fire|10: Carona|16: Same as 9:|17: Carona Amber|18: Carona Red|19: Carona Green|20: Carona Blue|21: Rain|22: Smoke Small R (Red? but is not red. unfisched texture)|23: Sniper 1c (Missing texture)|24: Sniper 2 (Missing texture)|25: Same as 2.|71: Blood 1|72: Blood 1b|73: Blood 1c|74: Blood 1d|75: Blood 1e|76: Blood 1f|77: Blood 1g|78: Blood 1h|79: Blood 1i|80: Muzzle flash 3|100: Muzzle flash HMG (Used for HMG)|101: Muzzle flash 1 (Used for Pistol)|102: Muzzle flash 2 (Used for Tommygun)|103: Same as 80 (Used for Shotgun)|104: Muzzle flash 4 (Used for Flamethrower)|106: Muzzle flash 1a|107: Muzzle flash 2a|108: Muzzle flash 2b|110: Explode 1|111: Explode 2|116: Smoke Animated|120: Flame Thrower|121: Return error texture.|122: Flame Thrower Blue|123: Same as 121.|124: Splash 1|125: Splash 2|126: Splash 3|127: Splash 4|128: Firewall")
+				GUICtrlSetTip(-1, "Sprite image to use")
+				GUICtrlSetOnEvent(-1, "Combo1_SFX_TypeChange")
+				GUICtrlCreateLabel("SFX Type", 26, 202, 59, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Time 0.1s *", 26, 321, 59, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Spawn %", 18, 346, 67, 17, $SS_RIGHT)
+				GUICtrlSetTip(-1, "Random spawn percent.")
+				GUICtrlCreateLabel("Start Alpha", 26, 370, 59, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("End Alpha", 26, 394, 59, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Fade In", 26, 418, 59, 17, $SS_RIGHT)
+				GUICtrlSetTip(-1, "0.0 >")
+				GUICtrlCreateLabel("Lifetime", 26, 442, 59, 17, $SS_RIGHT)
+				GUICtrlSetTip(-1, "Time sprite will exist for. 0.1>")
+				GUICtrlCreateLabel("Rand Scale", 26, 466, 59, 17, $SS_RIGHT)
+				$Input11_start_width = GUICtrlCreateInput("0", 250, 200, 62, 21)
+				$Updown11_startWidth = GUICtrlCreateUpdown($Input11_start_width)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Start size of sprite in width. (type=float)")
+				GUICtrlCreateLabel("Start Width", 192, 202, 53, 17, $SS_RIGHT)
+				$Input12_end_width = GUICtrlCreateInput("0", 250, 224, 62, 21)
+				$Updown12_endWidth = GUICtrlCreateUpdown($Input12_end_width)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "End size of sprite in width. (type=float)")
+				$Input13_start_height = GUICtrlCreateInput("0", 250, 248, 62, 21)
+				$Updown13_startHeight = GUICtrlCreateUpdown($Input13_start_height)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Start size of sprite in height. (type=float)")
+				$Input14_end_height = GUICtrlCreateInput("0", 250, 272, 62, 21)
+				$Updown14_end_height = GUICtrlCreateUpdown($Input14_end_height)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "End size of sprite in height. (type=float)")
+				$Input15_rand_w_h = GUICtrlCreateInput("0", 250, 296, 62, 21)
+				$Updown15_randWH = GUICtrlCreateUpdown($Input15_rand_w_h)
+				GUICtrlSetLimit(-1, 2048, 0)
+				GUICtrlSetTip(-1, "Random size scale (same as random time scale, but effects only sizes) (type=float)")
+				GUICtrlCreateLabel("End Width", 192, 226, 53, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Start Height", 182, 250, 63, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("End Height", 182, 274, 63, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Rand W/H", 182, 298, 63, 17, $SS_RIGHT)
+				$Button_Sprite_Reset = GUICtrlCreateButton("Reset", 162, 460, 77, 25)
+				GUICtrlSetTip(-1, "Return all input boxes to default pistol sfx")
+				GUICtrlSetOnEvent(-1, "Button_Sprite_ResetClick")
+				$Button_Sprite_Import = GUICtrlCreateButton("Import .qdt", 162, 404, 77, 25)
+				GUICtrlSetOnEvent(-1, "Button_Sprite_ImportClick")
+				$Button_Sprite_Export = GUICtrlCreateButton("Export .qdt", 162, 432, 77, 25)
+				GUICtrlSetOnEvent(-1, "Button_Sprite_ExportClick")
+				GUICtrlCreateLabel("Vert/Tri Index #", 166, 326, 79, 17, $SS_RIGHT)
+				$Input16_vertexID = GUICtrlCreateInput("0", 250, 324, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+				$Updown16_vertIndex = GUICtrlCreateUpdown($Input16_vertexID)
+				GUICtrlSetLimit(-1, 2047, 0)
+				GUICtrlSetTip(-1, "What vertex/face index do you want the sprite to be attached to. (type=integer)")
+
+				GUICtrlCreateGroup("Show on frame/s (0-Based)", 322, 196, 149, 291)
+					GUICtrlCreateLabel("Start", 332, 218, 43, 17)
+					GUICtrlCreateLabel("End", 404, 218, 35, 17)
+
+					$iOff = 238
+					For $i = 0 To 9
+						;frame start inputs
+						$Input_f_start[$i] = GUICtrlCreateInput("0", 330, $iOff, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+						$Updown_f_start[$i] = GUICtrlCreateUpdown($Input_f_start[$i])
+						GUICtrlSetLimit(-1, 511, -1)
+						GUICtrlSetTip(-1, "Integer")
+						;frame end inputs
+						$Input_f_end[$i] = GUICtrlCreateInput("0", 402, $iOff, 62, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+						$Updown_f_end[$i] = GUICtrlCreateUpdown($Input_f_end[$i])
+						GUICtrlSetLimit(-1, 511, -1)
+						GUICtrlSetTip(-1, "Integer")
+						$iOff += 24
+					Next
+				GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+				$Checkbox2 = GUICtrlCreateCheckbox("Add / Update SFX", 246, 404, 69, 81, BitOR($BS_CHECKBOX,$BS_CENTER,$BS_PUSHLIKE,$BS_MULTILINE))
+				GUICtrlSetFont(-1, 8, 800, 0, "MS Sans Serif")
+				GUICtrlSetTip(-1, "Add an SFX entry into the .mdx."&@crlf&"Once SFX is inside an mdx it wont be removed."&@crlf&"To disable set all start/end to -1.")
+				GUICtrlSetOnEvent(-1, "Checkbox2Click")
+				$Button_flags = GUICtrlCreateButton("Flags", 44, 222, 41, 25)
+				GUICtrlSetOnEvent(-1, "Button_flagsClick")
+				$Combo3_vertTri = GUICtrlCreateCombo("", 250, 372, 63, 25, BitOR($CBS_DROPDOWNLIST,$CBS_AUTOHSCROLL))
+				GUICtrlSetData(-1, "0: Spawn at Vertex|1: Spawn centre of Triangle", "0: Spawn at Vertex")
+				GUICtrlSetTip(-1, "Select vertex or triangle to spawn sprite at")
+				$Input2_defineIndex = GUICtrlCreateInput("0", 250, 348, 61, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_READONLY,$ES_NUMBER))
+				GUICtrlSetState(-1, $GUI_DISABLE)
+				GUICtrlSetTip(-1, "Always use the first defined index.")
+				GUICtrlCreateLabel("Define Index", 182, 350, 63, 17, $SS_RIGHT)
+				GUICtrlCreateLabel("Vert/Tri ?", 182, 374, 63, 17, $SS_RIGHT)
+				$Icon_spr = GUICtrlCreateLabel("", 156, 200, 32, 32, $SS_SUNKEN)
+			GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+		$tab3 = GUICtrlCreateTabItem("Scale")
+			GUICtrlCreateGroup("Model Scale/Position", 14, 172, 465, 323)
+			$CheckboxScale = GUICtrlCreateCheckbox("Enable Rescale", 28, 196, 113, 17)
+			GUICtrlSetOnEvent(-1, "CheckboxScaleClick")
+			GUICtrlCreateLabel("BBox Max XYZ", 22, 224, 81, 17, $SS_RIGHT)
+			$InputScale_1 = GUICtrlCreateInput("0.0", 110, 220, 117, 21)
+			GUICtrlSetTip(-1, "X")
+			$InputScale_2 = GUICtrlCreateInput("0.0", 230, 220, 117, 21)
+			GUICtrlSetTip(-1, "Y")
+			$InputScale_3 = GUICtrlCreateInput("0.0", 350, 220, 117, 21)
+			GUICtrlSetTip(-1, "Z")
+			GUICtrlCreateLabel("BBox Min XYZ", 22, 252, 81, 17, $SS_RIGHT)
+			$InputScale_4 = GUICtrlCreateInput("0.0", 110, 248, 117, 21)
+			GUICtrlSetTip(-1, "X")
+			$InputScale_5 = GUICtrlCreateInput("0.0", 230, 248, 117, 21)
+			GUICtrlSetTip(-1, "Y")
+			$InputScale_6 = GUICtrlCreateInput("0.0", 350, 248, 117, 21)
+			GUICtrlSetTip(-1, "Z")
+			GUICtrlCreateEdit("", 26, 284, 441, 201, BitOR($ES_AUTOVSCROLL,$ES_AUTOHSCROLL,$ES_READONLY,$ES_WANTRETURN))
+			GUICtrlSetData(-1, StringFormat("Scale/reposition models using its bounding-box(BBox) size/position.\r\nThis is non destructive so vertex precision wont be lost.\r\n\r\nOnly effective on the first frame. So its not recommended for animated models.\r\n\r\nBBox Max is the most maximum XYZ position of any vertex.\r\nBBox Min is the most minimum XYZ position of any vertex.\r\n\r\nA pickup item BBox is usually min(-15, -15, -15) max(+15, +15, +15)\r\nIf you want to scale it taller while keeping item on the floor you set max-Z higher.\r\nEg.. min(-15, -15, -15) max(+15, +15, +30)"))
+			$btn_scale_drop = GUICtrlCreateButton("Drop To Floor", 350, 188, 117, 25)
+			GUICtrlSetTip(-1, "Drop Z height to -15")
+			GUICtrlSetOnEvent(-1, "btn_scale_dropClick")
+			$btn_scale_centre = GUICtrlCreateButton("Centre Model", 230, 188, 113, 25)
+			GUICtrlSetTip(-1, "Place model at centre origin")
+			GUICtrlSetOnEvent(-1, "btn_scale_centreClick")
+			GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+		$tab4 = GUICtrlCreateTabItem("About")
+			GUICtrlCreateEdit("", 12, 176, 468, 321, BitOR($ES_READONLY,$ES_WANTRETURN,$WS_VSCROLL))
+			GUICtrlSetData(-1, StringFormat("Created By David Smyth (Hypov8)\r\n===========================\r\n\r\nUsed for changing skins/sprites in md2/mdx files without needing a modelling program.\r\nMDX and MD2 are lossy file formats. Storing vertex position as a single Byte(256 grid units)\r\nSo every time you open and save, you may loose vertex precision.\r\nThis program stops the data loss by just updating skin/sprite values.\r\n\r\nOutput file name is always set when a new model is loaded.\r\nFile will be overwritten by default unless you change the Save File Name.\r\nDo take caution updating the original file. Always have a backup.\r\n\r\nSkin path"&Chr(39)&"s can be manually edited/deleted if needed.\r\n\r\nSkin names are truncated if models/, players/, textures/, kingpin/, Quake2/ is found.\r\n\r\nAdded Texture size option.\r\nKingpin max size is 480 but value seems irrelevant to render quality.\r\nQuake2 UV now resize for software mode.\r\nFile drag and drop supported for all input boxes.\r\nFile [ Open with ] supported.\r\n\r\nUSAGE: \r\n=======\r\n#1. Click [ Import ]. Select your md2/mdx file\r\n#2. Click [ File Name ]. If you want to save as a new file\r\n#3. Change skins/sprites as desired. Skin names can be typed.\r\n#4. Click [ GO! ]. This will make a new/updated model with your skins.\r\n\r\nDISCLAIMER: \r\n===========\r\nCare taken writing program but I do not take any responsibility for loss or damages."))
+		GUICtrlCreateTabItem("")
+
+		;misc
+		$btn_clear = GUICtrlCreateButton("Clear Skins", 416, 144, 65, 21)
+		GUICtrlSetTip(-1, "Clear all skins.")
+		GUICtrlSetOnEvent(-1, "btn_clearClick")
+		$in_size_w = GUICtrlCreateInput("", 336, 144, 37, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+		GUICtrlSetLimit(-1, 3)
+		GUICtrlSetTip(-1, "Texture Width")
+		$in_size_h = GUICtrlCreateInput("", 376, 144, 37, 21, BitOR($GUI_SS_DEFAULT_INPUT,$ES_NUMBER))
+		GUICtrlSetLimit(-1, 3)
+		GUICtrlSetTip(-1, "Texture Height")
+		GUICtrlCreateLabel("W/H", 304, 146, 28, 17, $SS_RIGHT)
+		GUICtrlSetTip(-1, "Skin Width/Height")
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+	GUICtrlCreateGroup("#4. Save", 392, 4, 97, 117)
+		$btn_export_GO = GUICtrlCreateButton("GO!", 401, 56, 77, 57)
+		GUICtrlSetTip(-1, "Generate model"&@CRLF&"CAUTION: make sure you have a backup.")
+		GUICtrlSetOnEvent(-1, "btn_export_GOClick")
+		$Checkbox1 = GUICtrlCreateCheckbox("Backup", 404, 28, 69, 17)
+		GUICtrlSetState(-1, $GUI_CHECKED)
+		GUICtrlSetTip(-1, "Create a backup file (file_name.mdx.backup)"&@CRLF&"File will NOT be backed up if a backup already exists")
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+	GUISetState(@SW_SHOW, $KPModelSkins)
+	ConsoleWrite('-loaded'&@CRLF)
+	#EndRegion ### END Koda GUI section ###
+EndFunc
+
+;~ popup gui
+Global Const $Count_Flags = 25 ;16777216
+Global enum $FLAG_NAME, $FLAG_DEF
+Global $DMFLAGS, $UI_Cbox_flags[$Count_Flags]
+Global Const $g_aFlags_kp1[$Count_Flags][2] = [ _
+	["1 = Add Gravity", "SFX_FLAG_GRAVITY"], _ ;
+	["2 = Fixed Decal", "SFX_FLAG_SURFACE_EFFECT"], _ ;
+	["4 = No Random Rotation", "SFX_FLAG_NO_FLIP"], _ ;
+	["8 = Fixed Decal. Sort Near. Blend Blue", "SFX_FLAG_LIGHTFLARE"], _ ;
+	["16 = Sort Near. Alpha", "SFX_FLAG_DEPTHHACK"], _ ;
+	["32 = 2D Sprite (Rotate Z)", "SFX_FLAG_UPRIGHT"], _ ;
+	["64 = Move up. Black", "SFX_FLAG_VEL_IS_ANGLES"], _ ;
+	["128 = Blend White", "SFX_FLAG_ADDITIVE_BLEND"], _ ;
+	["256 = Sprite (Alpha)", "SFX_FLAG_ALPHA_IS_FRAME"], _ ;
+	["512 = Blend Blue", "SFX_FLAG_VEL_IS_COLOR_MODULATION"], _ ;
+	["1024 = Cull Close", "SFX_FLAG_CLOSE_CULL"], _ ;
+	["",""] _
+]
 
 
 
-#Region ### START Koda GUI section ### Form=c:\programs\codeing\autoit-v3\scite\koda\dave\kp\model_fix_popup_flags.kxf
-Global $DMFLAGS = GUICreate("SFX FLAGS", 486, 500, -1, -1, $WS_POPUP, -1, $KPModelSkins)
-GUISetOnEvent($GUI_EVENT_CLOSE, "DMFLAGSClose")
-Global $Group1_flags = GUICtrlCreateGroup("Sprite Flags", 12, 40, 457, 449)
-Global $box_flags_1 = GUICtrlCreateCheckbox("1 = Add Gravity", 20, 64, 205, 17)
-Global $box_flags_2 = GUICtrlCreateCheckbox("2 = Fixed Decal", 20, 88, 205, 17)
-Global $box_flags_4 = GUICtrlCreateCheckbox("4 = No Random Rotation", 20, 112, 205, 17)
-Global $box_flags_8 = GUICtrlCreateCheckbox("8 = Fixed Decal. Sort Near. Blend Blue", 20, 136, 205, 17)
-Global $box_flags_16 = GUICtrlCreateCheckbox("16 = Sort Near. Alpha", 20, 160, 205, 17)
-Global $box_flags_32 = GUICtrlCreateCheckbox("32 = 2D Sprite (Rotate Z)", 20, 184, 205, 17)
-Global $box_flags_64 = GUICtrlCreateCheckbox("64 = Move up. Black", 20, 208, 205, 17)
-Global $box_flags_128 = GUICtrlCreateCheckbox("128 = Blend White", 20, 232, 205, 17)
-Global $box_flags_256 = GUICtrlCreateCheckbox("256 = Sprite (Alpha)", 20, 256, 205, 17)
-Global $box_flags_512 = GUICtrlCreateCheckbox("512 = Blend Blue", 20, 280, 205, 17)
-Global $box_flags_1024 = GUICtrlCreateCheckbox("1024 = Cull Close", 20, 304, 205, 17)
-Global $Button_flags_Close = GUICtrlCreateButton("Close", 84, 356, 309, 109)
-GUICtrlSetOnEvent(-1, "DMFLAGSClose")
-Global $Label1 = GUICtrlCreateLabel("SFX_FLAG_GRAVITY", 236, 64, 164, 17)
-Global $Label2 = GUICtrlCreateLabel("SFX_FLAG_SURFACE_EFFECT", 236, 88, 164, 17)
-Global $Label3 = GUICtrlCreateLabel("SFX_FLAG_NO_FLIP", 236, 112, 164, 17)
-Global $Label4 = GUICtrlCreateLabel("SFX_FLAG_LIGHTFLARE", 236, 136, 164, 17)
-Global $Label5 = GUICtrlCreateLabel("SFX_FLAG_DEPTHHACK", 236, 160, 164, 17)
-Global $Label6 = GUICtrlCreateLabel("SFX_FLAG_UPRIGHT", 236, 184, 164, 17)
-Global $Label7 = GUICtrlCreateLabel("SFX_FLAG_VEL_IS_ANGLES", 236, 208, 164, 17)
-Global $Label8 = GUICtrlCreateLabel("SFX_FLAG_ADDITIVE_BLEND", 236, 232, 164, 17)
-Global $Label9 = GUICtrlCreateLabel("SFX_FLAG_ALPHA_IS_FRAME", 236, 256, 164, 17)
-Global $Label10 = GUICtrlCreateLabel("SFX_FLAG_VEL_IS_COLOR_MODULATION", 236, 280, 220, 17)
-Global $Label11 = GUICtrlCreateLabel("SFX_FLAG_CLOSE_CULL", 236, 304, 164, 17)
-GUICtrlCreateGroup("", -99, -99, 1, 1)
-Global $Button_flags_CloseX = GUICtrlCreateButton("X", 440, 8, 25, 25)
-GUICtrlSetOnEvent(-1, "DMFLAGSClose")
-#EndRegion ### END Koda GUI section ###
 
+GUI_Flags_Build()
+Func GUI_Flags_Build()
+	Local $iOff	= 34
 
+	$DMFLAGS = GUICreate("SFX FLAGS", 486, 506, -1, -1, $WS_POPUP, -1, $KPModelSkins)
+	GUISetOnEvent($GUI_EVENT_CLOSE, "DMFLAGSClose")
+	GUICtrlCreateGroup("Flags", 12, 10, 457, 479)
+		For $i = 0 To $Count_Flags -1
+			$UI_Cbox_flags[$i] = GUICtrlCreateCheckbox($g_aFlags_kp1[$i][$FLAG_NAME], 20, $iOff, 205, 14)
+			GUICtrlCreateLabel($g_aFlags_kp1[$i][$FLAG_DEF], 236, $iOff, 164, 14)
+			$iOff += 16
+		Next
+		GUICtrlCreateButton("Close", 84, $iOff, 309, 45) ;356
+		GUICtrlSetOnEvent(-1, "DMFLAGSClose")
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+	GUISetState(@SW_HIDE, $DMFLAGS)
+EndFunc
 
-#Region ### START Koda GUI section ### Form=C:\Programs\codeing\autoit-v3\SciTe\Koda\Dave\msg_box_form.kxf
-;Global $Form1_msgbox = GUICreate("Info", 139, 96, -1, -1, -1, -1, $KPModelSkins)
-Global $Form1_msgbox = GUICreate("Info", 145, 118, -1, -1, $WS_SYSMENU, -1, $KPModelSkins)
-GUISetOnEvent($GUI_EVENT_CLOSE, "Form1_msgboxClose", $Form1_msgbox)
-Global $Button1_msgbox = GUICtrlCreateButton("&OK", 37, 65, 75, 23)
-GUICtrlSetOnEvent(-1, "Form1_msgboxClose")
-Global $Label1_bakgrn = GUICtrlCreateLabel("", 0, 0, 138, 57)
-GUICtrlSetBkColor(-1, 0xFFFFFF)
-Global $Label1_msgbox = GUICtrlCreateLabel("Label1_msgbox", 12, 16, 116, 17)
-GUICtrlSetBkColor(-1, 0xFFFFFF)
-Global $Label2_msgbox = GUICtrlCreateLabel("Label2_msgbox", 12, 32, 116, 17)
-GUICtrlSetBkColor(-1, 0xFFFFFF)
-#EndRegion ### END Koda GUI section ###
-
+GUI_msgBox_Build()
+Func GUI_msgBox_Build()
+	#Region ### START Koda GUI section ### Form=C:\Programs\codeing\autoit-v3\SciTe\Koda\Dave\msg_box_form.kxf
+		;Global $Form1_msgbox = GUICreate("Info", 139, 96, -1, -1, -1, -1, $KPModelSkins)
+		$Form1_msgbox = GUICreate("Info", 145, 118, -1, -1, $WS_SYSMENU, -1, $KPModelSkins)
+		GUISetOnEvent($GUI_EVENT_CLOSE, "Form1_msgboxClose", $Form1_msgbox)
+		$Button1_msgbox = GUICtrlCreateButton("&OK", 37, 65, 75, 23)
+		GUICtrlSetOnEvent(-1, "Form1_msgboxClose")
+		GUICtrlCreateLabel("", 0, 0, 138, 57)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		$Label1_msgbox = GUICtrlCreateLabel("Label1_msgbox", 12, 16, 116, 17)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		$Label2_msgbox = GUICtrlCreateLabel("Label2_msgbox", 12, 32, 116, 17)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		GUISetState(@SW_HIDE, $Form1_msgbox)
+	#EndRegion ### END Koda GUI section ###
+EndFunc
 
 
 #Region #Global
 Global Const $MAXTRIANGLES = 4096
 Global Const $MAXVERTEX = 2048
 Global Const $iMAXTEXCORDS = $MAXTRIANGLES*3 ;todo: load invalid? or is this ok?
-Global Const $iMAXSKIN = 32
-Global $skin[$iMAXSKIN+1]
-Global Const $iSMDX = 1
-Global Const $iSMD2 = 2
-Global Const $iSMD3 = 3
+Global $skin[$iMAXSKIN]
+Global Enum _
+	$MOD_NONE, _
+	$MOD_MD2, _
+	$MOD_MDX, _
+	$MOD_MD3, _
+	$COUNT_MOD
+Global Const $g_aModelData[$COUNT_MOD][2] = [ _
+	['', ''], _ ;keep empty?
+	["Quake2 Model",  ".md2"], _
+	["Kingpin Model", ".mdx"], _
+	["Quake3 Model",  ".md3"] _
+]
 Global $importFileName =""
 Global $exportFileName =""
-Global $modelType = 0
+Global $modelType = $MOD_NONE
 Global $model_DATA_END, $model_DATA_preSFX, $model_DATA_tri, $model_DATA_scale[6], $model_DATA_frame
 Global Const $iSFX_DEF_SIZE = (17*4)
 Global Const $iSFX_ENTRY_SIZE = (3*4+64)
 Global $isActive_msgBox = 0
 
-Global $g_aMD3_surf[$iMAXSKIN+1][2]
+Global $g_aMD3_surf[$iMAXSKIN][2]
 Global $g_iMD3_tex = 0
 
 
@@ -561,10 +468,6 @@ Global $aFrameRange[10][2] 	;frame input boxes (10)
 Global $sFileName = "test" 	;store file name for saving qdt
 Global $model_DATA_SFXDef[25]
 Global $model_DATA_SFXEntry[25]
-
-;GUI's
-GUISetState(@SW_HIDE, $DMFLAGS)
-GUISetState(@SW_HIDE, $Form1_msgbox)
 
 ;
 Global $fileOpenDialogPath = @ScriptDir &"\"
@@ -642,38 +545,10 @@ GUICtrlSetState($in_model_export, $GUI_DROPACCEPTED)
 ; GUICtrlSetState($btn_export_file, $GUI_DROPACCEPTED)
 GUICtrlSetState($Group3, $GUI_DROPACCEPTED)
 
-GUICtrlSetState($in_skin_1, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_2, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_3, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_4, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_5, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_6, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_7, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_8, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_9, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_10, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_11, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_12, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_13, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_14, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_15, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_16, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_17, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_18, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_19, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_20, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_21, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_22, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_23, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_24, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_25, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_26, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_27, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_28, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_29, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_30, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_31, $GUI_DROPACCEPTED)
-GUICtrlSetState($in_skin_32, $GUI_DROPACCEPTED)
+For $i = 0 To $iMAXSKIN - 1
+	GUICtrlSetState($UI_in_skins[$i], $GUI_DROPACCEPTED)
+Next
+
 GUISetOnEvent($GUI_EVENT_DROPPED, "fn_dropFile",$KPModelSkins)
 
 _GUICtrlComboBox_SetDroppedWidth($Combo1_SFX_Type, 350)
@@ -692,9 +567,12 @@ _GUICtrlComboBox_SetDroppedWidth($Combo2_direction, 150)
 ; Startup input filename
 if $CmdLine[0] >= 1 Then
 	if $CmdLine[1] <> "" Then
-		If StringInStr($CmdLine[1], ".mdx") Or StringInStr($CmdLine[1], ".md2") Then
-			fn_ImportModel($CmdLine[1])
-		EndIf
+		For $i = 1 To $COUNT_MOD -1
+			If StringInStr($CmdLine[1], $g_aModelData[$i][1]) Then; todo check trailing chars ;".mdx"
+				fn_ImportModel($CmdLine[1])
+				ExitLoop
+			EndIf
+		Next
 	EndIf
 EndIf
 
@@ -714,71 +592,13 @@ Func fn_dropFile()
 		Case $Group3 ;$in_model_export, ,$btn_export_file
 			$exportFileName = @GUI_DragFile
 			GUICtrlSetData($in_model_export, @GUI_DragFile)
-
-		Case $in_skin_1
-			GUICtrlSetData($in_skin_1, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_2
-			GUICtrlSetData($in_skin_2, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_3
-			GUICtrlSetData($in_skin_3, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_4
-			GUICtrlSetData($in_skin_4, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_5
-			GUICtrlSetData($in_skin_5, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_6
-			GUICtrlSetData($in_skin_6, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_7
-			GUICtrlSetData($in_skin_7, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_8
-			GUICtrlSetData($in_skin_8, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_9
-			GUICtrlSetData($in_skin_9, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_10
-			GUICtrlSetData($in_skin_10, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_11
-			GUICtrlSetData($in_skin_11, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_12
-			GUICtrlSetData($in_skin_12, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_13
-			GUICtrlSetData($in_skin_13, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_14
-			GUICtrlSetData($in_skin_14, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_15
-			GUICtrlSetData($in_skin_15, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_16
-			GUICtrlSetData($in_skin_16, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_17
-			GUICtrlSetData($in_skin_17, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_18
-			GUICtrlSetData($in_skin_18, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_19
-			GUICtrlSetData($in_skin_19, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_20
-			GUICtrlSetData($in_skin_20, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_21
-			GUICtrlSetData($in_skin_21, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_22
-			GUICtrlSetData($in_skin_22, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_23
-			GUICtrlSetData($in_skin_23, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_24
-			GUICtrlSetData($in_skin_24, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_25
-			GUICtrlSetData($in_skin_25, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_26
-			GUICtrlSetData($in_skin_26, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_27
-			GUICtrlSetData($in_skin_27, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_28
-			GUICtrlSetData($in_skin_28, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_29
-			GUICtrlSetData($in_skin_29, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_30
-			GUICtrlSetData($in_skin_30, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_31
-			GUICtrlSetData($in_skin_31, fn_dropFileSkins(@GUI_DragFile))
-		Case $in_skin_32
-			GUICtrlSetData($in_skin_32, fn_dropFileSkins(@GUI_DragFile))
+		Case Else
+			For $i = 0 To $iMAXSKIN - 1
+				if @GUI_DropId = $UI_in_skins[$i] Then
+					GUICtrlSetData($UI_in_skins[$i], fn_dropFileSkins(@GUI_DragFile))
+					ExitLoop
+				EndIf
+			Next
 	EndSwitch
 EndFunc
 
@@ -831,7 +651,13 @@ Func fn_SetCurrentFolder($filePath)
 EndFunc
 
 Func btn_importClick()
-	local $fileName = FileOpenDialog("Kingpin Model", $fileOpenDialogPath, "Kingpin Models (*.md2;*.mdx)",1 ,"", $KPModelSkins)
+	Local $fileName, $sTmp = ""
+	For $i = 1 To $COUNT_MOD -1
+		$sTmp &= StringFormat("*%s;", $g_aModelData[$i][1])
+	Next
+	$sTmp = StringFormat("Models (%s)", $sTmp)
+
+	$fileName = FileOpenDialog("Models", $fileOpenDialogPath, $sTmp,1 ,"", $KPModelSkins) ;"Models (*.md2;*.mdx)"
 	If not @error Then
 		fn_ImportModel($fileName)
 	EndIf
@@ -857,7 +683,7 @@ Func fn_ImportModel($fileName)
 		ConsoleWrite("--> $hdr_version = " & $hdr_version&@CRLF)
 
 		if $hdr_magic == "49445058" And $hdr_version = 4 Then ;IDPX
-			$modelType = $iSMDX
+			$modelType = $MOD_MDX
 			$hdr_skinWidth = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
 			$hdr_skinHeight = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
 			$hdr_frameSize = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
@@ -895,7 +721,7 @@ Func fn_ImportModel($fileName)
 			$hdr_offsetDummyEnd_size = 		$hdr_offsetDummyEnd - $hdr_offsetBBoxFrames
 			$hdr_offsetEnd_size = 			0
 		ElseIf $hdr_magic == "49445032" And $hdr_version = 8 Then ;IDP2
-			$modelType = $iSMD2
+			$modelType = $MOD_MD2
 			$hdr_skinWidth = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
 			$hdr_skinHeight = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
 			$hdr_frameSize = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)))
@@ -925,7 +751,7 @@ Func fn_ImportModel($fileName)
 		;;;;;;;;;;;; MD3 ;;;;;;;;;;;;;;;;;;
 		ElseIf $hdr_magic == "49445033" And $hdr_version = 15 Then ;IDP3
 			ConsoleWrite("found MD3" &@CRLF)
-			$modelType = $iSMD3
+			$modelType = $MOD_MD3
 			$hdr_MD3_path =			_HexToString(FileRead($bFile, 64)) ;todo: file path
 			$hdr_MD3_flags = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8))) ;flags
 			$hdr_MD3_frames = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8))) ;num frames
@@ -937,12 +763,15 @@ Func fn_ImportModel($fileName)
 			$hdr_MD3_ofsTags = 	_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)));OFS_TAGS
 			$hdr_MD3_ofsSurf = 	_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)));OFS_SURFACES
 			$hdr_MD3_EOF = 		_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8)));OFS_EOF
+
+		;ElseIf
+			;todo q1 model
 		Else
 			$modelType = 0
 		EndIf
 
-		If ($modelType = 0) Or  ($hdr_numSkins > $iMAXSKIN) or _
-			(($modelType = $iSMD2) And ($hdr_numTexCoords > $iMAXTEXCORDS)) Then
+		If ($modelType = 0) Or  ($hdr_numSkins >= $iMAXSKIN) or _
+			(($modelType = $MOD_MD2) And ($hdr_numTexCoords > $iMAXTEXCORDS)) Then
 			$modelType = 0
 			FileClose ( $bFile )
 			fn_MSG_box("File Invalid.")
@@ -960,7 +789,7 @@ Func fn_ImportModel($fileName)
 
 
 		;MD3 read skins/shaders
-		if $modelType == $iSMD3 Then
+		if $modelType == $MOD_MD3 Then
 			;read md3 surface
 			Local $iCurOffset = $hdr_MD3_ofsSurf
 			FileSetPos($bFile, $iCurOffset, $FILE_BEGIN)
@@ -979,11 +808,11 @@ Func fn_ImportModel($fileName)
 				Local $iOffsEnd = _WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8))) ;+4
 				FileSetPos($bFile,$iCurOffset + $iOffsShad, $FILE_BEGIN)
 
-				for $i2 = 1 to $iNumShad ;num surf
-					$g_iMD3_tex += 1 ;write skins	1-based
-					If $g_iMD3_tex <= $iMAXSKIN Then ;max skin count
+				for $i2 = 0 to $iNumShad -1 ;num surf
+					If $g_iMD3_tex < $iMAXSKIN Then ;max skin count
 						$g_aMD3_surf[$g_iMD3_tex][0] = FileGetPos($bFile) ; $iCurOffset + $iOffsShad +( ($i2-1)*68) ;save file offset
 						$g_aMD3_surf[$g_iMD3_tex][1] = fn_StripNullFromString(_HexToString(FileRead($bFile, 64)))
+						$g_iMD3_tex += 1 ;write skins	1-based
 						FileSetPos($bFile, 4, $FILE_CURRENT)
 					EndIf
 				Next
@@ -994,7 +823,7 @@ Func fn_ImportModel($fileName)
 			Next
 
 			;copt to $skin array
-			for $i1 = 1 to $g_iMD3_tex
+			for $i1 = 0 to $g_iMD3_tex -1
 				$skin[$i1] = $g_aMD3_surf[$i1][1]
 			Next
 
@@ -1002,9 +831,9 @@ Func fn_ImportModel($fileName)
 			;read skins
 			ConsoleWrite("header_numSkins = " & string($hdr_numSkins) & @CRLF)
 			FileSetPos($bFile, $hdr_offsetSkins, $FILE_BEGIN)
-			for $i1 = 1 to $hdr_numSkins
-				Local $tmpSkin =_HexToString(FileRead($bFile, 64)) ;BinaryToString
-				If $i1 <= $iMAXSKIN Then ;max skin count
+			for $i1 = 0 to $hdr_numSkins -1
+				Local $tmpSkin = _HexToString(FileRead($bFile, 64)) ;BinaryToString
+				If $i1 < $iMAXSKIN Then ;max skin count
 					$skin[$i1] = fn_StripNullFromString($tmpSkin) ;remove anything after null
 					ConsoleWrite('skin '& $i1&'= '&$skin[$i1]&@CRLF)
 				EndIf
@@ -1012,7 +841,7 @@ Func fn_ImportModel($fileName)
 
 
 			;md2 read text cords
-			if ($modelType = $iSMD2) Then
+			if ($modelType = $MOD_MD2) Then
 				FileSetPos($bFile, $hdr_offsetTexCoords, $FILE_BEGIN)
 				For $i1 = 0 To ($hdr_numTexCoords - 1)
 					$hdr_TexCoords[$i1][0] = _WinAPI_SwapWord(dec(hex(FileRead($bFile, 2), 4))) / $hdr_skinWidth;
@@ -1029,7 +858,7 @@ Func fn_ImportModel($fileName)
 			For $iI = 0 to 5;read float
 				$model_DATA_scale[$iI] = _WinAPI_DWordToFloat(_WinAPI_SwapDWord(dec(hex(FileRead($bFile, 4), 8))))
 			Next
-			if ($modelType = $iSMDX) Then
+			if ($modelType = $MOD_MDX) Then
 				$model_DATA_frame = hex(FileRead($bFile, $hdr_offsetSfxDefines - $hdr_offsetFrames -(4*6)))
 			Else
 				$model_DATA_frame = hex(FileRead($bFile, $hdr_offsetGlCommands - $hdr_offsetFrames -(4*6)))
@@ -1038,7 +867,7 @@ Func fn_ImportModel($fileName)
 
 
 			;mdx read sfx
-			if ($modelType = $iSMDX) Then
+			if ($modelType = $MOD_MDX) Then
 				;FileSetPos($bFile, $hdr_offsetTriangles, $FILE_BEGIN)
 				;$model_DATA_preSFX = hex(FileRead($bFile, $hdr_offsetSfxDefines - $hdr_offsetTriangles)) ;todo split?
 
@@ -1105,7 +934,7 @@ Func fn_ImportModel($fileName)
 		fn_Fill_Scale();todo: scale
 		;=======
 
-		if ($modelType = $iSMDX) Then
+		if ($modelType = $MOD_MDX) Then
 			if ($hdr_numSfxEntries >= 1) Then
 				Local $tmp2 = $aSFX_add[3]
 				local $fNum =0
@@ -1144,7 +973,7 @@ Func fn_ImportModel($fileName)
 				fn_MSG_box("Input file offset issue.", "This may effect output.")
 			EndIf
 		;==>end MDX
-		Elseif ($modelType = $iSMD2) Then
+		Elseif ($modelType = $MOD_MD2) Then
 			if ($hdr_offsetTexCoords_size < 0) Or ($hdr_offsetTriangles_size < 0) Or _
 				($hdr_offsetFrames_size < 0) Or ($hdr_offsetGlCommands_size < 0) Then
 				fn_MSG_box("Input file offset issue.", "This may effect output.", 1)
@@ -1155,21 +984,15 @@ Func fn_ImportModel($fileName)
 
 EndFunc ;==>end fn_ImportModel
 
+
 ;set output file name
 Func btn_export_fileClick()
-	Local $fileName = ""
-	If $modelType = $iSMDX Then
-		$fileName = FileSaveDialog("Kingpin Model", $fileOpenDialogPath, "Kingpin Models (*.mdx)",2 ,"", $KPModelSkins)
-	ElseIf $modelType = $iSMD2 Then
-		$fileName = FileSaveDialog("Kingpin Model", $fileOpenDialogPath, "Kingpin Models (*.md2)",2 ,"", $KPModelSkins)
-	ElseIf $modelType = $iSMD3 Then
-		$fileName = FileSaveDialog("Quake2 Model", $fileOpenDialogPath, "Quake3 Models (*.md3)",2 ,"", $KPModelSkins)
-	EndIf
+	Local $fileName = FileSaveDialog($g_aModelData[$modelType][0], $fileOpenDialogPath, _ ;"Kingpin Models (*.mdx)"
+		StringFormat("%ss (*%s)", $g_aModelData[$modelType][0], $g_aModelData[$modelType][1]) ,2 ,"", $KPModelSkins)
 
 	If not @error Then
 		$exportFileName = $fileName
 		fn_SetCurrentFolder($fileName)
-
 		GUICtrlSetData($in_model_export, $fileName)
 	EndIf
 EndFunc
@@ -1193,7 +1016,7 @@ Func Export_MD3()
 	fn_ProcessInputSkins() ; get skin from input boxes
 
 	;overwrite file
-	for $i1 = 1 to $g_iMD3_tex
+	for $i1 = 0 to $g_iMD3_tex -1
 		$iLen = StringLen($skin[$i1])
 		$skinHex = _StringToHex($skin[$i1])
 		;finish of with null
@@ -1230,7 +1053,7 @@ Func btn_export_GOClick()
 		EndIf
 	EndIf
 
-	if $modelType = $iSMD3 Then
+	if $modelType = $MOD_MD3 Then
 		Export_MD3()
 		Return
 	EndIf
@@ -1242,7 +1065,7 @@ Func btn_export_GOClick()
 	EndIf
 
 	;fix header offset size. compensate for adding a new SFX
-	If ($modelType = $iSMDX) Then
+	If ($modelType = $MOD_MDX) Then
 		if _IsChecked($Checkbox2) Then
 			if ($hdr_numSfxDefines = 0) Then $hdr_numSfxDefines = 1
 			if ($hdr_numSfxEntries = 0) Then $hdr_numSfxEntries = 1
@@ -1265,7 +1088,7 @@ Func btn_export_GOClick()
 	$aheader[6] = $hdr_numVertices	;num verts		#6
 
 
-	If ($modelType = $iSMDX) Then
+	If ($modelType = $MOD_MDX) Then
 		$aheader[7] = $hdr_numTriangles				;num tri		#7
 		$aheader[8] = $hdr_numGlCommands			;num glCmd		#8
 		$aheader[9] = $hdr_numFrames				;num frames		#9
@@ -1286,7 +1109,7 @@ Func btn_export_GOClick()
 			FileWrite ( $bFile, "0x"&fn_Swap4Bytes(hex($aheader[$iI], 8)))
 		Next
 		ConsoleWrite("--> File MDX"&@CRLF)
-	ElseIf ($modelType = $iSMD2) Then
+	ElseIf ($modelType = $MOD_MD2) Then
 		$aheader[7] = $hdr_numTexCoords			;num ST				#7
 		$aheader[8] = $hdr_numTriangles			;num tri			#8
 		$aheader[9] = $hdr_numGlCommands		;num glCmd			#9
@@ -1306,7 +1129,7 @@ Func btn_export_GOClick()
 	EndIf
 
 	;build skin string
-	For $i1 = 1 To $skinCount
+	For $i1 = 0 To $skinCount -1
 		$iLen = StringLen($skin[$i1])
 		$skinHex &= _StringToHex($skin[$i1])
 		;finish of with null
@@ -1316,11 +1139,11 @@ Func btn_export_GOClick()
 	Next
 
 	;write skins
-	if $skinCount > 0 Then FileWrite ( $bFile, "0x"&$skinHex)
-	$skinHex=""
+	if $skinCount > 0 Then FileWrite($bFile, "0x"&$skinHex)
+	$skinHex = ""
 
 	;md2 write textcords
-	if ($modelType = $iSMD2) Then
+	if ($modelType = $MOD_MD2) Then
 		For $i1 = 0 To ($hdr_numTexCoords-1)
 			FileWrite ( $bFile, "0x"&fn_Swap4Bytes(hex(int($hdr_TexCoords[$i1][0]*$hdr_skinWidth),4)))
 			FileWrite ( $bFile, "0x"&fn_Swap4Bytes(hex(Int($hdr_TexCoords[$i1][1]*$hdr_skinHeight),4)))
@@ -1341,7 +1164,7 @@ Func btn_export_GOClick()
 	FileWrite ( $bFile, "0x"&$model_DATA_frame)
 
 	;mdx write SFX
-	If ($modelType = $iSMDX) Then
+	If ($modelType = $MOD_MDX) Then
 		;FileWrite ( $bFile, "0x"&$model_DATA_preSFX)
 
 		;setup local arrays with gui data
@@ -1444,101 +1267,106 @@ EndFunc
 #EndRegion
 
 #Region ;==> SKIN CHOOSER BUTTONS
+Func SetSkin($hw)
+	GUICtrlSetData($hw, fn_OpenFile_GetSkinName(GUICtrlRead($hw)))
+EndFunc
+
+
 Func btn_skin_1Click()
-	GUICtrlSetData($in_skin_1, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_1)))
+	SetSkin($UI_in_skins[0])
 EndFunc
 Func btn_skin_2Click()
-	GUICtrlSetData($in_skin_2, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_2)))
+	SetSkin($UI_in_skins[1])
 EndFunc
 Func btn_skin_3Click()
-	GUICtrlSetData($in_skin_3, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_3)))
+	SetSkin($UI_in_skins[2])
 EndFunc
 Func btn_skin_4Click()
-	GUICtrlSetData($in_skin_4, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_4)))
+	SetSkin($UI_in_skins[3])
 EndFunc
 Func btn_skin_5Click()
-	GUICtrlSetData($in_skin_5, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_5)))
+	SetSkin($UI_in_skins[4])
 EndFunc
 Func btn_skin_6Click()
-	GUICtrlSetData($in_skin_6, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_6)))
+	SetSkin($UI_in_skins[5])
 EndFunc
 Func btn_skin_7Click()
-	GUICtrlSetData($in_skin_7, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_7)))
+	SetSkin($UI_in_skins[6])
 EndFunc
 Func btn_skin_8Click()
-	GUICtrlSetData($in_skin_8, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_8)))
+	SetSkin($UI_in_skins[7])
 EndFunc
 Func btn_skin_9Click()
-	GUICtrlSetData($in_skin_9, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_9)))
+	SetSkin($UI_in_skins[8])
 EndFunc
 Func btn_skin_10Click()
-	GUICtrlSetData($in_skin_10, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_10)))
+	SetSkin($UI_in_skins[9])
 EndFunc
 Func btn_skin_11Click()
-	GUICtrlSetData($in_skin_11, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_11)))
+	SetSkin($UI_in_skins[10])
 EndFunc
 Func btn_skin_12Click()
-	GUICtrlSetData($in_skin_12, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_12)))
+	SetSkin($UI_in_skins[11])
 EndFunc
 Func btn_skin_13Click()
-	GUICtrlSetData($in_skin_13, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_13)))
+	SetSkin($UI_in_skins[12])
 EndFunc
 Func btn_skin_14Click()
-	GUICtrlSetData($in_skin_14, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_14)))
+	SetSkin($UI_in_skins[13])
 EndFunc
 Func btn_skin_15Click()
-	GUICtrlSetData($in_skin_15, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_15)))
+	SetSkin($UI_in_skins[14])
 EndFunc
 Func btn_skin_16Click()
-	GUICtrlSetData($in_skin_16, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_16)))
+	SetSkin($UI_in_skins[15])
 EndFunc
 Func btn_skin_17Click()
-	GUICtrlSetData($in_skin_17, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_17)))
+	SetSkin($UI_in_skins[16])
 EndFunc
 Func btn_skin_18Click()
-	GUICtrlSetData($in_skin_18, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_18)))
+	SetSkin($UI_in_skins[17])
 EndFunc
 Func btn_skin_19Click()
-	GUICtrlSetData($in_skin_19, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_19)))
+	SetSkin($UI_in_skins[18])
 EndFunc
 Func btn_skin_20Click()
-	GUICtrlSetData($in_skin_20, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_20)))
+	SetSkin($UI_in_skins[19])
 EndFunc
 Func btn_skin_21Click()
-	GUICtrlSetData($in_skin_21, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_21)))
+	SetSkin($UI_in_skins[20])
 EndFunc
 Func btn_skin_22Click()
-	GUICtrlSetData($in_skin_22, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_22)))
+	SetSkin($UI_in_skins[21])
 EndFunc
 Func btn_skin_23Click()
-	GUICtrlSetData($in_skin_23, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_23)))
+	SetSkin($UI_in_skins[22])
 EndFunc
 Func btn_skin_24Click()
-	GUICtrlSetData($in_skin_24, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_24)))
+	SetSkin($UI_in_skins[23])
 EndFunc
 Func btn_skin_25Click()
-	GUICtrlSetData($in_skin_25, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_25)))
+	SetSkin($UI_in_skins[24])
 EndFunc
 Func btn_skin_26Click()
-	GUICtrlSetData($in_skin_26, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_26)))
+	SetSkin($UI_in_skins[25])
 EndFunc
 Func btn_skin_27Click()
-	GUICtrlSetData($in_skin_27, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_27)))
+	SetSkin($UI_in_skins[26])
 EndFunc
 Func btn_skin_28Click()
-	GUICtrlSetData($in_skin_28, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_28)))
+	SetSkin($UI_in_skins[27])
 EndFunc
 Func btn_skin_29Click()
-	GUICtrlSetData($in_skin_29, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_29)))
+	SetSkin($UI_in_skins[28])
 EndFunc
 Func btn_skin_30Click()
-	GUICtrlSetData($in_skin_30, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_30)))
+	SetSkin($UI_in_skins[29])
 EndFunc
 Func btn_skin_31Click()
-	GUICtrlSetData($in_skin_31, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_31)))
+	SetSkin($UI_in_skins[30])
 EndFunc
 Func btn_skin_32Click()
-	GUICtrlSetData($in_skin_32, fn_OpenFile_GetSkinName(GUICtrlRead($in_skin_32)))
+	SetSkin($UI_in_skins[31])
 EndFunc
 
 #EndRegion
@@ -1581,38 +1409,9 @@ Func fn_TrimFilePath($fileTempName)
 EndFunc
 
 Func fn_FillSkinInput()
-	GUICtrlSetData($in_skin_1, $skin[1])
-	GUICtrlSetData($in_skin_2, $skin[2])
-	GUICtrlSetData($in_skin_3, $skin[3])
-	GUICtrlSetData($in_skin_4, $skin[4])
-	GUICtrlSetData($in_skin_5, $skin[5])
-	GUICtrlSetData($in_skin_6, $skin[6])
-	GUICtrlSetData($in_skin_7, $skin[7])
-	GUICtrlSetData($in_skin_8, $skin[8])
-	GUICtrlSetData($in_skin_9, $skin[9])
-	GUICtrlSetData($in_skin_10, $skin[10])
-	GUICtrlSetData($in_skin_11, $skin[11])
-	GUICtrlSetData($in_skin_12, $skin[12])
-	GUICtrlSetData($in_skin_13, $skin[13])
-	GUICtrlSetData($in_skin_14, $skin[14])
-	GUICtrlSetData($in_skin_15, $skin[15])
-	GUICtrlSetData($in_skin_16, $skin[16])
-	GUICtrlSetData($in_skin_17, $skin[17])
-	GUICtrlSetData($in_skin_18, $skin[18])
-	GUICtrlSetData($in_skin_19, $skin[19])
-	GUICtrlSetData($in_skin_20, $skin[20])
-	GUICtrlSetData($in_skin_21, $skin[21])
-	GUICtrlSetData($in_skin_22, $skin[22])
-	GUICtrlSetData($in_skin_23, $skin[23])
-	GUICtrlSetData($in_skin_24, $skin[24])
-	GUICtrlSetData($in_skin_25, $skin[25])
-	GUICtrlSetData($in_skin_26, $skin[26])
-	GUICtrlSetData($in_skin_27, $skin[27])
-	GUICtrlSetData($in_skin_28, $skin[28])
-	GUICtrlSetData($in_skin_29, $skin[29])
-	GUICtrlSetData($in_skin_30, $skin[30])
-	GUICtrlSetData($in_skin_31, $skin[31])
-	GUICtrlSetData($in_skin_32, $skin[32])
+	For $i = 0 To $iMAXSKIN - 1
+		GUICtrlSetData($UI_in_skins[$i], $skin[$i])
+	Next
 EndFunc
 
 Func fn_OpenFile_GetSkinName($origSkin)
@@ -1628,63 +1427,27 @@ Func fn_OpenFile_GetSkinName($origSkin)
 EndFunc
 
 Func fn_ProcessInputSkins()
-	Local $iCount=0
-	Local $sTempSkins[$iMAXSKIN+1]
-
-	$sTempSkins[1] = GUICtrlRead($in_skin_1)
-	$sTempSkins[2] = GUICtrlRead($in_skin_2)
-	$sTempSkins[3] = GUICtrlRead($in_skin_3)
-	$sTempSkins[4] = GUICtrlRead($in_skin_4)
-	$sTempSkins[5] = GUICtrlRead($in_skin_5)
-	$sTempSkins[6] = GUICtrlRead($in_skin_6)
-	$sTempSkins[7] = GUICtrlRead($in_skin_7)
-	$sTempSkins[8] = GUICtrlRead($in_skin_8)
-	$sTempSkins[9] = GUICtrlRead($in_skin_9)
-	$sTempSkins[10] = GUICtrlRead($in_skin_10)
-	$sTempSkins[11] = GUICtrlRead($in_skin_11)
-	$sTempSkins[12] = GUICtrlRead($in_skin_12)
-	$sTempSkins[13] = GUICtrlRead($in_skin_13)
-	$sTempSkins[14] = GUICtrlRead($in_skin_14)
-	$sTempSkins[15] = GUICtrlRead($in_skin_15)
-	$sTempSkins[16] = GUICtrlRead($in_skin_16)
-	$sTempSkins[17] = GUICtrlRead($in_skin_17)
-	$sTempSkins[18] = GUICtrlRead($in_skin_18)
-	$sTempSkins[19] = GUICtrlRead($in_skin_19)
-	$sTempSkins[20] = GUICtrlRead($in_skin_20)
-	$sTempSkins[21] = GUICtrlRead($in_skin_21)
-	$sTempSkins[22] = GUICtrlRead($in_skin_22)
-	$sTempSkins[23] = GUICtrlRead($in_skin_23)
-	$sTempSkins[24] = GUICtrlRead($in_skin_24)
-	$sTempSkins[25] = GUICtrlRead($in_skin_25)
-	$sTempSkins[26] = GUICtrlRead($in_skin_26)
-	$sTempSkins[27] = GUICtrlRead($in_skin_27)
-	$sTempSkins[28] = GUICtrlRead($in_skin_28)
-	$sTempSkins[29] = GUICtrlRead($in_skin_29)
-	$sTempSkins[30] = GUICtrlRead($in_skin_30)
-	$sTempSkins[31] = GUICtrlRead($in_skin_31)
-	$sTempSkins[32] = GUICtrlRead($in_skin_32)
-
-	For $i1 = 1 to $iMAXSKIN
-		If $sTempSkins[$i1] <> "" Then
-			$iCount+=1
-			$skin[$iCount]= StringMid($sTempSkins[$i1],1, 64)
+	Local $iCount = 0, $sTmp
+	For $i = 0 to $iMAXSKIN - 1
+		$sTmp = GUICtrlRead($UI_in_skins[$i])
+		If $sTmp <> "" Then
+			$skin[$iCount] = StringMid($sTmp, 1, 64)
+			$iCount += 1
 		EndIf
 	Next
-	Return Number($iCount)
+	Return $iCount
 EndFunc
 
 Func fn_ResetSkinInput()
-	for $i1 = 1 to $iMAXSKIN
-		$skin[$i1] =""
+	for $i = 0 to $iMAXSKIN -1
+		$skin[$i] = ""
 	Next
 	fn_FillSkinInput()
 EndFunc
 
-
 Func btn_clearClick()
 	fn_ResetSkinInput()
 EndFunc
-
 
 #EndRegion
 
@@ -1705,8 +1468,8 @@ Func Checkbox2Click()
 	if ($hdr_numSfxEntries = 0) And ($hdr_numSfxDefines = 0) Then
 		If _IsChecked($Checkbox2) Then
 			GUICtrlSetState($Checkbox2, $GUI_UNCHECKED)
-		Else
-			if ($modelType = $iSMDX) Then GUICtrlSetState($Checkbox2,$GUI_CHECKED)
+		Elseif ($modelType = $MOD_MDX) Then
+			GUICtrlSetState($Checkbox2, $GUI_CHECKED)
 		EndIf
 	EndIf
 EndFunc
@@ -1758,44 +1521,17 @@ Func fn_Reset_SpriteTab_Data()
 
 	GuiCtrlSetData($Input16_vertexID, "0") ;vertex 0-based (-1 will not add any sfx if it did not allready exist)
 
-	GuiCtrlSetData($Input_f_start_1, "8")
-	GuiCtrlSetData($Input_f_end_1, "8")
-	GuiCtrlSetData($Input_f_start_2, "-1")
-	GuiCtrlSetData($Input_f_end_2, "-1")
-	GuiCtrlSetData($Input_f_start_3, "-1")
-	GuiCtrlSetData($Input_f_end_3, "-1")
-	GuiCtrlSetData($Input_f_start_4, "-1")
-	GuiCtrlSetData($Input_f_end_4, "-1")
-	GuiCtrlSetData($Input_f_start_5, "-1")
-	GuiCtrlSetData($Input_f_end_5, "-1")
-	GuiCtrlSetData($Input_f_start_6, "-1")
-	GuiCtrlSetData($Input_f_end_6, "-1")
-	GuiCtrlSetData($Input_f_start_7, "-1")
-	GuiCtrlSetData($Input_f_end_7, "-1")
-	GuiCtrlSetData($Input_f_start_8, "-1")
-	GuiCtrlSetData($Input_f_end_8, "-1")
-	GuiCtrlSetData($Input_f_start_9, "-1")
-	GuiCtrlSetData($Input_f_end_9, "-1")
-	GuiCtrlSetData($Input_f_start_10, "-1")
-	GuiCtrlSetData($Input_f_end_10, "-1")
-
-
-	GUICtrlSetState($box_flags_1, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_2, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_4, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_8, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_16, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_32, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_64, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_128, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_256, $GUI_UNCHECKED)
-	GUICtrlSetState($box_flags_512, $GUI_UNCHECKED)
- 	GUICtrlSetState($box_flags_1024, $GUI_UNCHECKED)
-;~ 	GUICtrlSetState($box_flags_2048, $GUI_UNCHECKED)
-;~ 	GUICtrlSetState($box_flags_4096, $GUI_UNCHECKED)
-;~ 	GUICtrlSetState($box_flags_8192, $GUI_UNCHECKED)
-;~ 	GUICtrlSetState($box_flags_16384, $GUI_UNCHECKED)
-;~ 	GUICtrlSetState($box_flags_32768, $GUI_UNCHECKED)
+	;frames
+	GuiCtrlSetData($Input_f_start[0], "8")
+	GuiCtrlSetData($Input_f_end[0], "8")
+	For $i = 1 To 9
+		GuiCtrlSetData($Input_f_start[$i], "-1")
+		GuiCtrlSetData($Input_f_end[$i], "-1")
+	Next
+	;sprite flage
+	For $i = 0 To $Count_Flags -1
+		GUICtrlSetState($UI_Cbox_flags[$i], $GUI_UNCHECKED)
+	Next
 
 ;sprite image reset
 Combo1_SFX_TypeChange()
@@ -1804,24 +1540,9 @@ EndFunc
 
 Func fn_FillFlags_chkBox()
 	Local $flagsStr = int(GUICtrlRead($Input1_flags))
-
-	if BitAND($flagsStr, 1) Then GUICtrlSetState($box_flags_1, $GUI_CHECKED)
-	if BitAND($flagsStr, 2) Then GUICtrlSetState($box_flags_2, $GUI_CHECKED)
-	if BitAND($flagsStr, 4) Then GUICtrlSetState($box_flags_4, $GUI_CHECKED)
-	if BitAND($flagsStr, 8) Then GUICtrlSetState($box_flags_8, $GUI_CHECKED)
-	if BitAND($flagsStr, 16) Then GUICtrlSetState($box_flags_16, $GUI_CHECKED)
-	if BitAND($flagsStr, 32) Then GUICtrlSetState($box_flags_32, $GUI_CHECKED)
-	if BitAND($flagsStr, 64) Then GUICtrlSetState($box_flags_64, $GUI_CHECKED)
-	if BitAND($flagsStr, 128) Then GUICtrlSetState($box_flags_128, $GUI_CHECKED)
-	if BitAND($flagsStr, 256) Then GUICtrlSetState($box_flags_256, $GUI_CHECKED)
-	if BitAND($flagsStr, 512) Then GUICtrlSetState($box_flags_512, $GUI_CHECKED)
- 	if BitAND($flagsStr, 1024) Then GUICtrlSetState($box_flags_1024, $GUI_CHECKED)
-;~ 	if BitAND($flagsStr, 2048) Then GUICtrlSetState($box_flags_2048, $GUI_CHECKED)
-;~ 	if BitAND($flagsStr, 4096) Then GUICtrlSetState($box_flags_4096, $GUI_CHECKED)
-;~ 	if BitAND($flagsStr, 8192) Then GUICtrlSetState($box_flags_8192, $GUI_CHECKED)
-;~ 	if BitAND($flagsStr, 16384) Then GUICtrlSetState($box_flags_16384, $GUI_CHECKED)
-;~ 	if BitAND($flagsStr, 32768) Then GUICtrlSetState($box_flags_32768, $GUI_CHECKED)
-
+	For $i = 0 To $Count_Flags - 1
+		if BitAND($flagsStr, BitShift(1, -$i)) Then GUICtrlSetState($UI_Cbox_flags[$i], $GUI_CHECKED)
+	Next
 EndFunc
 
 
@@ -1894,29 +1615,12 @@ Func fn_Fill_SpriteTab()
 
 	;_ArrayDisplay($aFrameRange)
 	;todo cleanup
-	GuiCtrlSetData($Input_f_start_1, $aFrameRange[0][0])
-	GuiCtrlSetData($Input_f_end_1, $aFrameRange[0][1])
-	GuiCtrlSetData($Input_f_start_2, $aFrameRange[1][0])
-	GuiCtrlSetData($Input_f_end_2, $aFrameRange[1][1])
-	GuiCtrlSetData($Input_f_start_3, $aFrameRange[2][0])
-	GuiCtrlSetData($Input_f_end_3, $aFrameRange[2][1])
-	GuiCtrlSetData($Input_f_start_4, $aFrameRange[3][0])
-	GuiCtrlSetData($Input_f_end_4, $aFrameRange[3][1])
-	GuiCtrlSetData($Input_f_start_5, $aFrameRange[4][0])
-	GuiCtrlSetData($Input_f_end_5, $aFrameRange[4][1])
-	GuiCtrlSetData($Input_f_start_6, $aFrameRange[5][0])
-	GuiCtrlSetData($Input_f_end_6, $aFrameRange[5][1])
-	GuiCtrlSetData($Input_f_start_7, $aFrameRange[6][0])
-	GuiCtrlSetData($Input_f_end_7, $aFrameRange[6][1])
-	GuiCtrlSetData($Input_f_start_8, $aFrameRange[7][0])
-	GuiCtrlSetData($Input_f_end_8, $aFrameRange[7][1])
-	GuiCtrlSetData($Input_f_start_9, $aFrameRange[8][0])
-	GuiCtrlSetData($Input_f_end_9, $aFrameRange[8][1])
-	GuiCtrlSetData($Input_f_start_10, $aFrameRange[9][0])
-	GuiCtrlSetData($Input_f_end_10, $aFrameRange[9][1])
+	For $i = 0 To 9
+		GuiCtrlSetData($Input_f_start[$i], $aFrameRange[$i][0])
+		GuiCtrlSetData($Input_f_end[$i], $aFrameRange[$i][1])
+	Next
 
 	fn_FillFlags_chkBox()
-
 	Combo1_SFX_TypeChange()
 EndFunc
 
@@ -1953,27 +1657,12 @@ Func fn_Get_SpriteTab_Data()
 	$aSFX_add[0] = 	int(GUICtrlRead($Input16_vertexID)) ;todo add more defines??
 	$aSFX_add[1] = 	0 ;always sprite define index 0
 	$aSFX_add[2] = 	$VertTriIdx ;vertex/tri
+
 	;frame range to show effect
-	$aFrameRange[0][0]=	int(GUICtrlRead($Input_f_start_1))
-	$aFrameRange[0][1]=	int(GUICtrlRead($Input_f_end_1))
-	$aFrameRange[1][0]=	int(GUICtrlRead($Input_f_start_2))
-	$aFrameRange[1][1]=	int(GUICtrlRead($Input_f_end_2))
-	$aFrameRange[2][0]=	int(GUICtrlRead($Input_f_start_3))
-	$aFrameRange[2][1]=	int(GUICtrlRead($Input_f_end_3))
-	$aFrameRange[3][0]=	int(GUICtrlRead($Input_f_start_4))
-	$aFrameRange[3][1]=	int(GUICtrlRead($Input_f_end_4))
-	$aFrameRange[4][0]=	int(GUICtrlRead($Input_f_start_5))
-	$aFrameRange[4][1]=	int(GUICtrlRead($Input_f_end_5))
-	$aFrameRange[5][0]=	int(GUICtrlRead($Input_f_start_6))
-	$aFrameRange[5][1]=	int(GUICtrlRead($Input_f_end_6))
-	$aFrameRange[6][0]=	int(GUICtrlRead($Input_f_start_7))
-	$aFrameRange[6][1]=	int(GUICtrlRead($Input_f_end_7))
-	$aFrameRange[7][0]=	int(GUICtrlRead($Input_f_start_8))
-	$aFrameRange[7][1]=	int(GUICtrlRead($Input_f_end_8))
-	$aFrameRange[8][0]=	int(GUICtrlRead($Input_f_start_9))
-	$aFrameRange[8][1]=	int(GUICtrlRead($Input_f_end_9))
-	$aFrameRange[9][0]=	int(GUICtrlRead($Input_f_start_10))
-	$aFrameRange[9][1]=	int(GUICtrlRead($Input_f_end_10))
+	For $i = 0 To 9
+		$aFrameRange[$i][0]=	int(GUICtrlRead($Input_f_start[$i]))
+		$aFrameRange[$i][1]=	int(GUICtrlRead($Input_f_end[$i]))
+	Next
 	;_ArrayDisplay($aFrameRange)
 
 	For $iI = 0 to 9
@@ -2195,23 +1884,11 @@ EndFunc
 
 Func fn_Calculate_flags()
 	Local $tmpFlags =0
-	If _IsChecked($box_flags_1) Then $tmpFlags = BitOR($tmpFlags, 1)
-	If _IsChecked($box_flags_2) Then $tmpFlags = BitOR($tmpFlags, 2)
-	If _IsChecked($box_flags_4) Then $tmpFlags = BitOR($tmpFlags, 4)
-	If _IsChecked($box_flags_8) Then $tmpFlags = BitOR($tmpFlags, 8)
-	If _IsChecked($box_flags_16) Then $tmpFlags = BitOR($tmpFlags, 16)
-	If _IsChecked($box_flags_32) Then $tmpFlags = BitOR($tmpFlags, 32)
-	If _IsChecked($box_flags_64) Then $tmpFlags = BitOR($tmpFlags, 64)
-	If _IsChecked($box_flags_128) Then $tmpFlags = BitOR($tmpFlags, 128)
-	If _IsChecked($box_flags_256) Then $tmpFlags = BitOR($tmpFlags, 256)
-	If _IsChecked($box_flags_512) Then $tmpFlags = BitOR($tmpFlags, 512)
- 	If _IsChecked($box_flags_1024) Then $tmpFlags = BitOR($tmpFlags, 1024)
-;~ 	If _IsChecked($box_flags_2048) Then $tmpFlags = BitOR($tmpFlags, 2048)
-;~ 	If _IsChecked($box_flags_4096) Then $tmpFlags = BitOR($tmpFlags, 4096)
-;~ 	If _IsChecked($box_flags_8192) Then $tmpFlags = BitOR($tmpFlags, 8192)
-;~ 	If _IsChecked($box_flags_16384) Then $tmpFlags = BitOR($tmpFlags, 16384)
-;~ 	If _IsChecked($box_flags_32768) Then $tmpFlags = BitOR($tmpFlags, 32768)
-
+	For $i = 0 To $Count_Flags - 1
+		If _IsChecked($UI_Cbox_flags[$i]) Then
+			$tmpFlags = BitOR($tmpFlags, bitshift(1, -$i))
+		EndIf
+	Next
 	GUICtrlSetData($Input1_flags,  $tmpFlags)
 EndFunc
 
