@@ -1,0 +1,34 @@
+kingpin_skin_changer
+====================
+replace skins/textures in md2/mdx files
+add or change sprites in mdx files
+
+drag and drop file names supported on input boxes
+windown open with supported
+
+to find the vertex number, use the updated mdx viewer (1.1.4)
+
+version 1.0.1
+=============
+- added drag file onto window. support for import, export and textur imput boxes
+- added option to backup file
+- added sprite sfx editor
+- disabled ESC closing the program
+- made reader more rebust by reading header offsets.
+- fixed messagebox not centre to program
+
+version 1.0.2
+=============
+- Fixed bug with reset button not reseting image
+- added check for models with zero skins in use
+- added editing of scale/position using bounding box
+
+
+update v1.0.3
+- added scale buttons to center model and drop to floor
+
+update v1.0.4
+- fixed bug in sprite frame range (if all frames are set to on)
+
+update v1.0.5
+-  added q3 support
