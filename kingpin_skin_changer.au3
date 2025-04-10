@@ -1,10 +1,10 @@
 #NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=D:\_code_\icon\star_icon.ico
-#AutoIt3Wrapper_Outfile=S:\dev_code\models-\kp_skinChanger\kingpin_skin_changer.exe
+#AutoIt3Wrapper_Icon=star_icon.ico
+#AutoIt3Wrapper_Outfile=kingpin_skin_changer.exe
 #AutoIt3Wrapper_UseX64=n
 #AutoIt3Wrapper_Res_Description=Kingpin Skin Changer v1.0.5
-#AutoIt3Wrapper_Res_Fileversion=1.0.5.0
+#AutoIt3Wrapper_Res_Fileversion=1.0.5.1
 #AutoIt3Wrapper_Res_File_Add=_sprites\0.bmp,rt_bitmap,spr_0
 #AutoIt3Wrapper_Res_File_Add=_sprites\1.bmp,rt_bitmap,spr_1
 #AutoIt3Wrapper_Res_File_Add=_sprites\2.bmp,rt_bitmap,spr_2
@@ -83,8 +83,11 @@
 ;   cleanup arrays
 ;   fixed sprites to read 1024 frames
 ;   moved reading data to separate functions
+;   added quake mdl support (only flags can be changed)
 ;   ...
 
+; todo
+;   make specific tab per game. hide unused
 
 
 AutoItSetOption("MustDeclareVars", 1)
@@ -340,7 +343,31 @@ Func MainUI()
 
 		$tab4 = GUICtrlCreateTabItem("About")
 			GUICtrlCreateEdit("", 12, 176, 468, 321, BitOR($ES_READONLY,$ES_WANTRETURN,$WS_VSCROLL))
-			GUICtrlSetData(-1, StringFormat("Created By David Smyth (Hypov8)\r\n===========================\r\n\r\nUsed for changing skins/sprites in md2/mdx files without needing a modelling program.\r\nMDX and MD2 are lossy file formats. Storing vertex position as a single Byte(256 grid units)\r\nSo every time you open and save, you may loose vertex precision.\r\nThis program stops the data loss by just updating skin/sprite values.\r\n\r\nOutput file name is always set when a new model is loaded.\r\nFile will be overwritten by default unless you change the Save File Name.\r\nDo take caution updating the original file. Always have a backup.\r\n\r\nSkin path"&Chr(39)&"s can be manually edited/deleted if needed.\r\n\r\nSkin names are truncated if models/, players/, textures/, kingpin/, Quake2/ is found.\r\n\r\nAdded Texture size option.\r\nKingpin max size is 480 but value seems irrelevant to render quality.\r\nQuake2 UV now resize for software mode.\r\nFile drag and drop supported for all input boxes.\r\nFile [ Open with ] supported.\r\n\r\nUSAGE: \r\n=======\r\n#1. Click [ Import ]. Select your md2/mdx file\r\n#2. Click [ File Name ]. If you want to save as a new file\r\n#3. Change skins/sprites as desired. Skin names can be typed.\r\n#4. Click [ GO! ]. This will make a new/updated model with your skins.\r\n\r\nDISCLAIMER: \r\n===========\r\nCare taken writing program but I do not take any responsibility for loss or damages."))
+			GUICtrlSetData(-1, StringFormat( _
+				"Created By David Smyth (Hypov8)\r\n" & _
+				"===========================\r\n" & _
+				"Email: hypov8@hotmail.com\r\n" & _
+				"Links: buymeacoffee.com/hypov8\r\n\r\n" & _
+				"ABOUT: \r\n=======\r\n" & _
+				"Used for changing skins/sprites in md2/mdx files without needing a modelling program.\r\n" & _
+				"MDX and MD2 are lossy file formats. Storing vertex position as a single Byte(256 grid units)\r\n" & _
+				"So every time you open and save, you may loose vertex precision.\r\n" & _
+				"This program stops the data loss by just updating skin/sprite values.\r\n\r\n" & _
+				"Output file name is always set when a new model is loaded.\r\n" & _
+				"File will be overwritten by default unless you change the Save File Name.\r\n" & _
+				"Do take caution updating the original file. Always have a backup.\r\n\r\n" & _
+				"Skin path"&Chr(39)&"s can be manually edited/deleted if needed.\r\n\r\n" & _
+				"Skin names are truncated if models/, players/, textures/, kingpin/, Quake2/ is found.\r\n\r\n" & _
+				"Added Texture size option.\r\nKingpin max size is 480 but value seems irrelevant to render quality.\r\n" & _
+				"Quake2 UV now resize for software mode.\r\nFile drag and drop supported for all input boxes.\r\n" & _
+				"File [ Open with ] supported.\r\n\r\n" & _
+				"USAGE: \r\n=======\r\n" & _
+				"#1. Click [ Import ]. Select your md2/mdx file\r\n" & _
+				"#2. Click [ File Name ]. If you want to save as a new file\r\n" & _
+				"#3. Change skins/sprites as desired. Skin names can be typed.\r\n" & _
+				"#4. Click [ GO! ]. This will make a new/updated model with your skins.\r\n\r\n" & _
+				"DISCLAIMER: \r\n===========\r\n" & _
+				"Care taken writing program but I do not take any responsibility for loss or damages."))
 		GUICtrlCreateTabItem("")
 
 		;misc
@@ -374,59 +401,49 @@ EndFunc
 ;~ popup gui
 Global Const $Count_Flags = 25 ;16777216
 Global enum $FLAG_NAME, $FLAG_DEF
-Global $DMFLAGS, $UI_Cbox_flags[$Count_Flags]
+Global $DMFLAGS, $UI_Cbox_flags[$Count_Flags], $UI_Labl_flags[$Count_Flags]
 Global Const $g_aFlags_kp1[$Count_Flags][2] = [ _
-	["1 = Add Gravity",                        "SFX_FLAG_GRAVITY"], _ ;
-	["2 = Fixed Decal",                        "SFX_FLAG_SURFACE_EFFECT"], _ ;
-	["4 = No Random Rotation",                 "SFX_FLAG_NO_FLIP"], _ ;
-	["8 = Fixed Decal. Sort Near. Blend Blue", "SFX_FLAG_LIGHTFLARE"], _ ;
-	["16 = Sort Near. Alpha",                  "SFX_FLAG_DEPTHHACK"], _ ;
-	["32 = 2D Sprite (Rotate Z)",              "SFX_FLAG_UPRIGHT"], _ ;
-	["64 = Move up. Black",                    "SFX_FLAG_VEL_IS_ANGLES"], _ ;
-	["128 = Blend White",                      "SFX_FLAG_ADDITIVE_BLEND"], _ ;
-	["256 = Sprite (Alpha)",                   "SFX_FLAG_ALPHA_IS_FRAME"], _ ;
-	["512 = Blend Blue",                       "SFX_FLAG_VEL_IS_COLOR_MODULATION"], _ ;
-	["1024 = Cull Close",                      "SFX_FLAG_CLOSE_CULL"], _ ;
+	["Add Gravity",                        "GRAVITY"], _ ;
+	["Fixed Decal",                        "SURFACE_EFFECT"], _ ;
+	["No Random Rotation",                 "NO_FLIP"], _ ;
+	["Fixed Decal. Sort Near. Blend Blue", "LIGHTFLARE"], _ ;
+	["Sort Near. Alpha",                   "DEPTHHACK"], _ ;
+	["2D Sprite (Rotate Z)",               "UPRIGHT"], _ ;
+	["Move up. Black",                     "VEL_IS_ANGLES"], _ ;
+	["Blend White",                        "ADDITIVE_BLEND"], _ ;
+	["Sprite (Alpha)",                     "ALPHA_IS_FRAME"], _ ;
+	["Blend Blue",                         "VEL_IS_COLOR_MODU"], _ ;
+	["Cull Close",                         "CLOSE_CULL"], _ ;
 	["",""] _
 ]
 
-
-GUI_Flags_Build()
-Func GUI_Flags_Build()
-	Local $iOff	= 34
-
-	$DMFLAGS = GUICreate("SFX FLAGS", 486, 506, -1, -1, $WS_POPUP, -1, $KPModelSkins)
-	GUISetOnEvent($GUI_EVENT_CLOSE, "DMFLAGSClose")
-	GUICtrlCreateGroup("Flags", 12, 10, 457, 479)
-		For $i = 0 To $Count_Flags -1
-			$UI_Cbox_flags[$i] = GUICtrlCreateCheckbox($g_aFlags_kp1[$i][$FLAG_NAME], 20, $iOff, 205, 14)
-			GUICtrlCreateLabel($g_aFlags_kp1[$i][$FLAG_DEF], 236, $iOff, 164, 14)
-			$iOff += 16
-		Next
-		GUICtrlCreateButton("Close", 84, $iOff, 309, 45) ;356
-		GUICtrlSetOnEvent(-1, "DMFLAGSClose")
-	GUICtrlCreateGroup("", -99, -99, 1, 1)
-	GUISetState(@SW_HIDE, $DMFLAGS)
-EndFunc
-
-GUI_msgBox_Build()
-Func GUI_msgBox_Build()
-	#Region ### START Koda GUI section ### Form=C:\Programs\codeing\autoit-v3\SciTe\Koda\Dave\msg_box_form.kxf
-		;Global $Form1_msgbox = GUICreate("Info", 139, 96, -1, -1, -1, -1, $KPModelSkins)
-		$Form1_msgbox = GUICreate("Info", 145, 118, -1, -1, $WS_SYSMENU, -1, $KPModelSkins)
-		GUISetOnEvent($GUI_EVENT_CLOSE, "Form1_msgboxClose", $Form1_msgbox)
-		$Button1_msgbox = GUICtrlCreateButton("&OK", 37, 65, 75, 23)
-		GUICtrlSetOnEvent(-1, "Form1_msgboxClose")
-		GUICtrlCreateLabel("", 0, 0, 138, 57)
-		GUICtrlSetBkColor(-1, 0xFFFFFF)
-		$Label1_msgbox = GUICtrlCreateLabel("Label1_msgbox", 12, 16, 116, 17)
-		GUICtrlSetBkColor(-1, 0xFFFFFF)
-		$Label2_msgbox = GUICtrlCreateLabel("Label2_msgbox", 12, 32, 116, 17)
-		GUICtrlSetBkColor(-1, 0xFFFFFF)
-		GUISetState(@SW_HIDE, $Form1_msgbox)
-	#EndRegion ### END Koda GUI section ###
-EndFunc
-
+Global Const $g_aFlags_quake[$Count_Flags][2] = [ _
+	["leave a trail",                                      "EF_ROCKET"], _
+	["leave a trail",                                      "EF_GRENADE"], _
+	["leave a trail",                                      "EF_GIB"], _
+	["rotate (bonus items)",                               "EF_ROTATE"], _
+	["green split trail",                                  "EF_TRACER"], _
+	["small blood trail",                                  "EF_ZOMGIB"], _
+	["orange split trail + rotate",                        "EF_TRACER2"], _
+	["purple trail",                                       "EF_TRACER3"], _
+	["Yellow transparent trail in all directions",         "EF_FIREBALL"], _
+	["Blue-white transparent trail, with gravity",         "EF_ICE"], _
+	["This model has mip-maps",                            "EF_MIP_MAP"], _
+	["Black transparent trail with negative light",        "EF_SPIT"], _
+	["Transparent sprite",                                 "EF_TRANSPARENT"], _
+	["Vertical spray of particles",                        "EF_SPELL"], _
+	["Solid model with color 0",                           "EF_HOLEY"], _
+	["Translucency through the particle table",            "EF_SPECIAL_TRANS"], _
+	["Poly Model always faces you",                        "EF_FACE_VIEW"], _
+	["leave a trail at top and bottom of model",           "EF_VORP_MISSILE"], _
+	["slowly move up and left/right",                      "EF_SET_STAFF"], _
+	["a trickle of blue/white particles with gravity",     "EF_MAGICMISSILE"], _
+	["a trickle of brown particles with gravity",          "EF_BONESHARD"], _
+	["white transparent particles with little gravity",    "EF_SCARAB"], _
+	["Green drippy acid shit",                             "EF_ACIDBALL"], _
+	["Blood rain shot trail",                              "EF_BLOODSHOT"], _
+	["Set per frame, this model will use the far mip map", "EF_MIP_MAP_FAR"] _
+]
 
 #Region #Global
 Global Const $MAXTRIANGLES = 4096
@@ -434,6 +451,7 @@ Global Const $MAXVERTEX = 2048
 Global Const $iMAXTEXCORDS = $MAXTRIANGLES*3 ;todo: load invalid? or is this ok?
 Global $g_aSkins[$iMAXSKIN]
 Global Enum _
+	$MOD_NONE = -1 , _
 	$MOD_MDL , _
 	$MOD_MD2, _
 	$MOD_MDX, _
@@ -447,7 +465,7 @@ Global Const $g_aModelData[$COUNT_MOD][2] = [ _
 ]
 Global $g_ImportFileName =""
 Global $g_ExportFileName =""
-Global $g_iModelType = 0
+Global $g_iModelType = $MOD_NONE
 Global $model_DATA_END, $model_DATA_BBOX, $model_DATA_VertexInfo, $model_DATA_GLComands, _
 	$model_DATA_DUMMY, $model_DATA_preSFX, $model_DATA_tri, $model_DATA_scale[6], $model_DATA_frame
 Global Const $iSFX_DEF_SIZE = (17*4)
@@ -456,6 +474,8 @@ Global $isActive_msgBox = 0
 
 Global $g_aMD3_surf[$iMAXSKIN][2]
 Global $g_iMD3_tex = 0
+
+Global $g_MDl_flags = 0 ;quake model flags.
 
 ;sprites
 Global Enum $SFX_IDX_VERT, $SFX_IDX_DEFF, $SFX_IDX_TYPE, $SFX_FRAMES, $COUNT_SFX_ENTRY
@@ -531,9 +551,8 @@ Global Const $aSFX_Type[$COUNT_SFX_TYPE][2] = [ _
 	[128, "Firewall"] _
 ]
 
-
-
-
+;== HEADER ==
+;MD2
 Global Enum _
 	$HDR_MD2_ID, _
 	$HDR_MD2_VER, _
@@ -552,6 +571,7 @@ Global Enum _
 	$HDR_MD2_OFF_FRAME, _
 	$HDR_MD2_OFF_GLCMD, _
 	$HDR_MD2_OFF_END
+;MDX
 Global Enum _
 	$HDR_MDX_ID, _
 	$HDR_MDX_VER, _
@@ -576,6 +596,7 @@ Global Enum _
 	$HDR_MDX_OFF_BBOXFRAME, _
 	$HDR_MDX_OFF_DUMMYEND, _
 	$HDR_MDX_OFF_END
+;MD3
 Global Enum _
 	$HDR_MD3_ID, _
 	$HDR_MD3_VER, _
@@ -589,8 +610,32 @@ Global Enum _
 	$HDR_MD3_OFF_TAGS, _
 	$HDR_MD3_OFF_SURF, _
 	$HDR_MD3_OFF_END
-Global Enum $HDR_MDL_ID, $HDR_MDL_VER, $HDR_MDL_SKIN_W, $HDR_MDL_SKIN_H, $HDR_MDL_FR_SIZE, _
-	$HDR_MDL_SCALE_X, $HDR_MDL_SCALE_Y, $HDR_MDL_SCALE_Z
+;MDL
+Global Enum _
+	$HDR_MDL_ID, _
+	$HDR_MDL_VER, _
+	$HDR_MDL_SCALE_X, _
+	$HDR_MDL_SCALE_Y, _
+	$HDR_MDL_SCALE_Z, _
+	$HDR_MDL_ORIGIN_X, _
+	$HDR_MDL_ORIGIN_Y, _
+	$HDR_MDL_ORIGIN_Z, _
+	$HDR_MDL_BOUND_RAD, _
+	$HDR_MDL_EYE_X, _
+	$HDR_MDL_EYE_Y, _
+	$HDR_MDL_EYE_Z, _
+	$HDR_MDL_NUM_SKINS, _
+	$HDR_MDL_SKIN_W, _
+	$HDR_MDL_SKIN_H, _
+	$HDR_MDL_NUM_VERTS, _
+	$HDR_MDL_NUM_TRIS, _
+	$HDR_MDL_NUM_FRAMES, _
+	$HDR_MDL_SYNC_TYPE, _
+	$HDR_MDL_FLAGS, _
+	$HDR_MDL_SIZE
+
+;== OFFSETS ==
+;MD2
 Global Enum _
 	$OFF_MD2_SKIN, _
 	$OFF_MD2_TEXCOORD, _
@@ -599,6 +644,7 @@ Global Enum _
 	$OFF_MD2_GLCMD, _
 	$OFF_MD2_END, _
 	$COUNT_OFF_MD2
+;MDX
 Global Enum _
 	$OFF_MDX_SKIN, _
 	$OFF_MDX_TRI, _
@@ -611,9 +657,85 @@ Global Enum _
 	$OFF_MDX_DUMMYEND, _
 	$OFF_MDX_END, _
 	$COUNT_OFF_MDX
+;MDL
+Global Enum _
+	$OFF_MDL_SKINS, _    ;skinID + size(skin_width * skin_height) +
+	$OFF_MDL_TEX_CORD, _ ;
+	$OFF_MDL_TRI, _
+	$OFF_MDL_FRAME, _
+	$COUNT_OFF_MDL
 
-Global $g_aGameHeaderData[4][23]
-Global $g_aGameHeaderOffSize[4][11]
+;todo cleanup
+Global $g_aGameHeaderData[$COUNT_MOD][23]
+Global $g_aGameHeaderOffSize[$COUNT_MOD][11]
+
+
+Func GUI_Flags_SetLable($gameID)
+	Switch $gameID
+		Case $MOD_MDL
+			For $i = 0 To $Count_Flags -1
+				If $g_aFlags_quake[$i][$FLAG_NAME] <> "" Then
+					GUICtrlSetData($UI_Cbox_flags[$i], $g_aFlags_quake[$i][$FLAG_NAME])
+					GUICtrlSetData($UI_Labl_flags[$i], StringFormat("%s  [ %i ]", $g_aFlags_quake[$i][$FLAG_DEF], BitShift(1, -$i)))
+				Else
+					GUICtrlSetData($UI_Cbox_flags[$i], '')
+					GUICtrlSetData($UI_Labl_flags[$i], '')
+				EndIf
+			Next
+		Case $MOD_MDX
+			For $i = 0 To $Count_Flags -1
+				If $g_aFlags_kp1[$i][$FLAG_NAME] <> "" Then
+					GUICtrlSetData($UI_Cbox_flags[$i], $g_aFlags_kp1[$i][$FLAG_NAME])
+					GUICtrlSetData($UI_Labl_flags[$i],  StringFormat("%s  [ %i ]", $g_aFlags_kp1[$i][$FLAG_DEF], BitShift(1, -$i)))
+				Else
+					GUICtrlSetData($UI_Cbox_flags[$i], '')
+					GUICtrlSetData($UI_Labl_flags[$i], '')
+				EndIf
+			Next
+		Case Else
+			For $i = 0 To $Count_Flags -1
+				GUICtrlSetData($UI_Cbox_flags[$i], '')
+				GUICtrlSetData($UI_Labl_flags[$i], '')
+			Next
+	EndSwitch
+EndFunc
+
+
+GUI_Flags_Build()
+Func GUI_Flags_Build()
+	Local $iOff	= 34
+
+	$DMFLAGS = GUICreate("SFX FLAGS", 486, 506, -1, -1, $WS_POPUP, -1, $KPModelSkins)
+	GUISetOnEvent($GUI_EVENT_CLOSE, "DMFLAGSClose")
+	GUICtrlCreateGroup("Flags", 12, 10, 457, 479)
+		For $i = 0 To $Count_Flags -1
+			$UI_Cbox_flags[$i] = GUICtrlCreateCheckbox('', 20, $iOff, 255, 14)
+			$UI_Labl_flags[$i] = GUICtrlCreateLabel('', 286, $iOff, 164, 14)
+			$iOff += 16
+		Next
+		GUICtrlCreateButton("Close", 84, $iOff, 309, 45) ;356
+		GUICtrlSetOnEvent(-1, "DMFLAGSClose")
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+	GUISetState(@SW_HIDE, $DMFLAGS)
+EndFunc
+
+GUI_msgBox_Build()
+Func GUI_msgBox_Build()
+	#Region ### START Koda GUI section ### Form=C:\Programs\codeing\autoit-v3\SciTe\Koda\Dave\msg_box_form.kxf
+		;Global $Form1_msgbox = GUICreate("Info", 139, 96, -1, -1, -1, -1, $KPModelSkins)
+		$Form1_msgbox = GUICreate("Info", 145, 118, -1, -1, $WS_SYSMENU, -1, $KPModelSkins)
+		GUISetOnEvent($GUI_EVENT_CLOSE, "Form1_msgboxClose", $Form1_msgbox)
+		$Button1_msgbox = GUICtrlCreateButton("&OK", 37, 65, 75, 23)
+		GUICtrlSetOnEvent(-1, "Form1_msgboxClose")
+		GUICtrlCreateLabel("", 0, 0, 138, 57)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		$Label1_msgbox = GUICtrlCreateLabel("Label1_msgbox", 12, 16, 116, 17)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		$Label2_msgbox = GUICtrlCreateLabel("Label2_msgbox", 12, 32, 116, 17)
+		GUICtrlSetBkColor(-1, 0xFFFFFF)
+		GUISetState(@SW_HIDE, $Form1_msgbox)
+	#EndRegion ### END Koda GUI section ###
+EndFunc
 
 
 GUICtrlSetState($in_model_import, $GUI_DROPACCEPTED)
@@ -791,13 +913,43 @@ Func fn_Read_MDX_Header(ByRef $bFile, $hdr_magic, $hdr_version, ByRef $numSkins)
 	fn_SetUI_WH($g_aGameHeaderData[$MOD_MDX][$HDR_MDX_SKIN_W], $g_aGameHeaderData[$MOD_MDX][$HDR_MDX_SKIN_H])
 
 	;calc offset sizes
-	For $i = 0 To $OFF_MDX_END -1
+	For $i = 0 To $OFF_MDX_END -1 ;$COUNT_OFF_MDX-2
 		$start = $g_aGameHeaderData[$MOD_MDX][$HDR_MDX_OFF_SKIN +$i +0]
 		$end   = $g_aGameHeaderData[$MOD_MDX][$HDR_MDX_OFF_SKIN +$i +1]
 		$g_aGameHeaderOffSize[$MOD_MDX][$i] = $end - $start ;calculate chunk size
 		ConsoleWrite("start:"&$start &" end:"&$end &"    total:"&$end - $start&@CRLF)
 	Next
 EndFunc
+
+Func fn_Read_MDL_Header(ByRef $bFile, $hdr_magic, $hdr_version, ByRef $numSkins)
+	Local $start, $end, $w, $h, $numTri, $numVert, $numFrames
+
+	;header lump
+	fn_Lump_Header($bFile, $MOD_MDL, $HDR_MDL_SIZE)
+	$g_MDl_flags = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_FLAGS]
+	;GUICtrlSetData($Input1_flags, $g_MDl_flags&'-')
+
+	$g_aGameHeaderData[$MOD_MDL][$HDR_MDL_ID]  = $hdr_magic
+	$g_aGameHeaderData[$MOD_MDL][$HDR_MDL_VER] = $hdr_version
+
+	$numSkins = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_NUM_SKINS]
+	$w = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_SKIN_W]
+	$h = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_SKIN_H]
+	;~ $numTri = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_NUM_TRIS]
+	;~ $numVert = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_NUM_VERTS]
+	;~ $numFrames = $g_aGameHeaderData[$MOD_MDL][$HDR_MDL_NUM_FRAMES]
+
+	fn_SetUI_WH($w, $h)
+
+	;~ ;calc offset sizes
+	;~ $g_aGameHeaderOffSize[$MOD_MDL][$OFF_MDL_SKINS] =  $numSkins * $w * $h  +4;skins
+	;~ $g_aGameHeaderOffSize[$MOD_MDL][$OFF_MDL_TEX_CORD] = $numVert * 12;tex cords
+	;~ $g_aGameHeaderOffSize[$MOD_MDL][$OFF_MDL_TRI] = $numTri * 16 ;triangle data
+	;~ $g_aGameHeaderOffSize[$MOD_MDL][$OFF_MDL_FRAME] = $numFrames * (4+(24+($numVert*4))) ;frame data
+
+
+EndFunc
+
 
 Func fn_Read_MD3_Header(ByRef $bFile, ByRef $numSkins)
 	Local $start, $end
@@ -1028,6 +1180,10 @@ Func fn_Read_MDX_Lumps(ByRef $bFile, $numSkins)
 	EndIf
 EndFunc
 
+Func fn_Read_MDL_Lumps(ByRef $bFile, $numSkins)
+	GUICtrlSetData($Input1_flags, $g_MDl_flags)
+
+EndFunc
 
 Func fn_ImportModel($fileName)
 	local $numSkins, $hdr_version
@@ -1039,7 +1195,7 @@ Func fn_ImportModel($fileName)
 		GUICtrlSetData($in_model_export, $fileName)
 		$g_ImportFileName = $fileName
 		$g_ExportFileName = $fileName
-		$g_iModelType = 0
+		$g_iModelType = $MOD_NONE
 		fn_SetCurrentFolder($fileName); set recent folder
 		GUICtrlSetState($Checkbox2, $GUI_UNCHECKED);set SFX buton to default OFF
 
@@ -1067,12 +1223,15 @@ Func fn_ImportModel($fileName)
 			fn_Read_MD3_Header($bFile, $numSkins)
 
 		;================ MDL ================
-		;ElseIf
-			;todo q1 model
+		ElseIf $hdr_magic == "4944504F" And $hdr_version = 6 Then ;IDPO
+			ConsoleWrite("found MDL" &@CRLF)
+			$g_iModelType = $MOD_MDL
+			fn_Read_MDL_Header($bFile, $hdr_magic, $hdr_version, $numSkins)
+
 		EndIf
 
-		If ($g_iModelType = 0) Or ($numSkins >= $iMAXSKIN) Then ;	(($g_iModelType = $MOD_MD2) And ($hdr_numTexCoords > $iMAXTEXCORDS)) Then
-			$g_iModelType = 0
+		If ($g_iModelType = $MOD_NONE) Or ($numSkins >= $iMAXSKIN) Then ;	(($g_iModelType = $MOD_MD2) And ($hdr_numTexCoords > $iMAXTEXCORDS)) Then
+			$g_iModelType = $MOD_NONE
 			FileClose($bFile)
 			fn_MSG_box("File Invalid.")
 			Return
@@ -1088,12 +1247,14 @@ Func fn_ImportModel($fileName)
 		fn_Reset_Scale()
 
 		;MD3 read skins/shaders
-		if $g_iModelType == $MOD_MD3 Then
+		if $g_iModelType == $MOD_MD3 Then ; md3
 			fn_Read_MD3_Lumps($bFile)
 		ElseIf $g_iModelType == $MOD_MD2 Then ; md2
 			fn_Read_MD2_Lumps($bFile, $numSkins)
-		ElseIf $g_iModelType == $MOD_MDX Then; mdx
+		ElseIf $g_iModelType == $MOD_MDX Then ; mdx
 			fn_Read_MDX_Lumps($bFile, $numSkins)
+		ElseIf $g_iModelType == $MOD_MDL Then ; mdl
+			fn_Read_MDL_Lumps($bFile, $numSkins)
 		EndIf
 		FileClose($bFile) ;close file
 
@@ -1148,6 +1309,8 @@ Func fn_ImportModel($fileName)
 				fn_MSG_box("Input file offset issue.", "This may effect output.", 1)
 			EndIf
 		;==>end MD2
+		ElseIf ($g_iModelType = $MOD_MDL) Then
+			fn_Fill_SpriteTab()
 		EndIf
 	EndIf;==>end FileExists
 
@@ -1155,6 +1318,11 @@ EndFunc ;==>end fn_ImportModel
 
 ;set output file name
 Func btn_export_fileClick()
+	if $g_iModelType = $MOD_NONE Then
+		fn_MSG_box("Input file invalid.", "", 1)
+		Return
+	EndIf
+
 	Local $sName = StringFormat("%s Models", $g_aModelData[$g_iModelType][0])
 	Local $fileName = FileSaveDialog( $sName, $fileOpenDialogPath, _ ;"Kingpin Models (*.mdx)"
 		StringFormat("%s (*%s)", $sName, $g_aModelData[$g_iModelType][1]) ,2 ,"", $KPModelSkins)
@@ -1166,8 +1334,10 @@ Func btn_export_fileClick()
 	EndIf
 EndFunc
 
-Func Export_MD3()
+Func Export_MDL()
 	Local $hFile, $nBytes, $tBuffer, $iLen, $skinHex
+
+	;if in/out names are differnt, make sure new fale can be writen to
 	if StringCompare($g_ImportFileName, $g_ExportFileName) Then
 		if Not FileCopy($g_ImportFileName, $g_ExportFileName, 1) Then
 			fn_MSG_box("Can't write output file.", "", 1)
@@ -1175,7 +1345,35 @@ Func Export_MD3()
 		EndIf
 	EndIf
 
-	$tBuffer = DllStructCreate("byte[64]")
+	;load file
+	$hFile = _WinAPI_CreateFile($g_ExportFileName, 2, 4)
+	if not $hFile Then
+		fn_MSG_box("Can't open output file.")
+		Return
+	EndIf
+
+	;write unsigned int to model flags
+	$tBuffer = DllStructCreate("UINT")
+	DllStructSetData($tBuffer, 1, int(GUICtrlRead($Input1_flags))) ;"0x"& ;$g_MDl_flags
+
+	_WinAPI_SetFilePointer($hFile, 76, $FILE_BEGIN)
+	_WinAPI_WriteFile($hFile, $tBuffer, 4, $nBytes)
+	ConsoleWrite("!bytes:"&$nBytes&@CRLF)
+	_WinAPI_CloseHandle($hFile)
+EndFunc
+
+Func Export_MD3()
+	Local $hFile, $nBytes, $tBuffer, $iLen, $skinHex
+
+	;if in/out names are differnt, make sure new fale can be writen to
+	if StringCompare($g_ImportFileName, $g_ExportFileName) Then
+		if Not FileCopy($g_ImportFileName, $g_ExportFileName, 1) Then
+			fn_MSG_box("Can't write output file.", "", 1)
+			Return
+		EndIf
+	EndIf
+
+	;load file
 	$hFile = _WinAPI_CreateFile($g_ExportFileName, 2, 4)
 	if not $hFile Then
 		fn_MSG_box("Can't open output file.")
@@ -1185,11 +1383,12 @@ Func Export_MD3()
 	fn_ProcessInputSkins() ; get skin from input boxes
 
 	;overwrite file
+	$tBuffer = DllStructCreate("byte[64]")
 	for $i1 = 0 to $g_iMD3_tex -1
 		$skinHex = fn_padHexData(_StringToHex($g_aSkins[$i1]), 64)
 		DllStructSetData($tBuffer, 1, "0x"&$skinHex)
 		_WinAPI_SetFilePointer($hFile, $g_aMD3_surf[$i1][0], $FILE_BEGIN)
-		ConsoleWrite('-texture buffer'& DllStructGetData($tBuffer, 1) & @CRLF)
+		;~ ConsoleWrite('-texture buffer'& DllStructGetData($tBuffer, 1) & @CRLF)
 		_WinAPI_WriteFile($hFile, $tBuffer, 64, $nBytes)
 	Next
 	_WinAPI_CloseHandle($hFile)
@@ -1207,7 +1406,7 @@ Func fn_padHexData($data, $len)
 		For $i = $currLen To $newLen-1
 			$ret &= "0"
 		Next
-		ConsoleWrite("+len2:"&StringLen($ret)& ' str:'&$ret&@CRLF)
+		;~ ConsoleWrite("+len2:"&StringLen($ret)& ' str:'&$ret&@CRLF)
 		Return $ret
 	EndIf
 EndFunc
@@ -1219,7 +1418,7 @@ Func btn_export_GOClick()
 	local $aheader[23]
 	Local $bFile
 
-	If $g_iModelType = 0 Then
+	If $g_iModelType = $MOD_NONE Then
 		fn_MSG_box("No valid model loaded.")
 		Return
 	EndIf
@@ -1228,7 +1427,6 @@ Func btn_export_GOClick()
 	If _IsChecked($Checkbox1) Then
 		Local $isOK = FileCopy($g_ImportFileName, string($g_ImportFileName&".backup") ,0)
 		if Not $isOK And Not FileExists(string($g_ImportFileName&".backup")) Then
-			;MsgBox(0,"ERROR:", "Cant write backup file",0, $KPModelSkins)
 			fn_MSG_box("Can't write backup file.", "", 1)
 			Return
 		EndIf
@@ -1236,6 +1434,10 @@ Func btn_export_GOClick()
 
 	if $g_iModelType = $MOD_MD3 Then
 		Export_MD3()
+		fn_MSG_box("Model Saved.")
+		Return
+	ElseIf $g_iModelType = $MOD_MDL Then
+		Export_MDL()
 		fn_MSG_box("Model Saved.")
 		Return
 	EndIf
@@ -1715,7 +1917,7 @@ Func fn_Reset_SpriteTab_Data()
 		GuiCtrlSetData($Input_f_start[$i], "-1")
 		GuiCtrlSetData($Input_f_end[$i], "-1")
 	Next
-	;sprite flage
+	;sprite flag
 	For $i = 0 To $Count_Flags -1
 		GUICtrlSetState($UI_Cbox_flags[$i], $GUI_UNCHECKED)
 	Next
@@ -1735,11 +1937,16 @@ EndFunc
 
 ;qdt/mdx file loaded and internal arrays set, now fill UI
 Func fn_Fill_SpriteTab()
+	if $g_iModelType = $MOD_MDL Then
+		fn_FillFlags_chkBox()
+		Return
+	EndIf
+
 	;SFX Type
 	Local $iNum = int(Number($g_aSFX_def[0]))
 	Local $iSFXTypeIndex = 30 ;default pistol
 	For $iI = 0 to $COUNT_SFX_TYPE -1
-		if $aSFX_Type[$iI] = $iNum Then
+		if $aSFX_Type[$iI][0] = $iNum Then
 			$iSFXTypeIndex = $iI
 			ExitLoop
 		EndIf
@@ -2092,7 +2299,8 @@ EndFunc
 
 #Region ;==> SPRITE TAB. SFX flags
 Func Button_flagsClick()
-	Local $aPos = WinGetPos ( $KPModelSkins )
+	Local $aPos = WinGetPos($KPModelSkins)
+	GUI_Flags_SetLable($g_iModelType) ;set names
 							;from left,  from top
 	WinMove($DMFLAGS, "", $aPos[0]+7, $aPos[1]+28)
 	GUISetState(@SW_DISABLE,$KPModelSkins)
