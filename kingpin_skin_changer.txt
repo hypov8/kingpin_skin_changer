@@ -32,3 +32,14 @@ update v1.0.4
 
 update v1.0.5
 -  added q3 support
+-  cleanup arrays
+-  fixed sprites to read 1024 frames
+-  moved reading data to separate functions
+-  added quake/hexen mdl support (only flags can be changed)
+
+update v1.0.6
+-  huge code cleanup. to allow easy additions
+-  capped input box string lengths
+-  added check for file incorrect file lengths. fixed on export
+
+
